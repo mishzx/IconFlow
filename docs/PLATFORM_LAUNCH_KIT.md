@@ -12,13 +12,14 @@ current self-promotion rules.
 
 **Tagline**
 
-> Make Windows folders recognizable—and every change reversible
+> Windows icon changes, made native and reversible
 
 **Short description**
 
-> IconFlow is a compact, native WinUI 3 icon manager for Windows. Change folder
-> and shortcut icons, turn images into multi-size ICO files, organize a local
-> library, and undo changes without uploading personal paths or files.
+> Your folders should feel like yours—without turning Windows into a maintenance
+> project. IconFlow changes folder and shortcut icons, turns images into crisp
+> multi-size ICO files, organizes a local library, and makes every change
+> reversible—all in a compact native WinUI 3 app.
 
 **Maker comment**
 
