@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AfterText.Text" xml:space="preserve">
+    <value>بعد</value>
+  </data>
+  <data name="AllIcons" xml:space="preserve">
+    <value>كل الأيقونات</value>
+  </data>
+  <data name="AppearanceHeader.Text" xml:space="preserve">
+    <value>المظهر</value>
+  </data>
+  <data name="AppTitleBar.Subtitle" xml:space="preserve">
+    <value>مدير الأيقونات</value>
+  </data>
+  <data name="AutoBackup.Text" xml:space="preserve">
+    <value>يتم إنشاء نسخة احتياطية قبل كل تغيير</value>
+  </data>
+  <data name="AutoBackupValue" xml:space="preserve">
+    <value>يتم إنشاء نسخة احتياطية قبل كل تغيير</value>
+  </data>
+  <data name="BeforeText.Text" xml:space="preserve">
+    <value>قبل</value>
+  </data>
+  <data name="BuiltIn_archive" xml:space="preserve">
+    <value>الأرشيف</value>
+  </data>
+  <data name="BuiltIn_clinical" xml:space="preserve">
+    <value>الطب السريري</value>
+  </data>
+  <data name="BuiltIn_code" xml:space="preserve">
+    <value>تطوير البرمجيات</value>
+  </data>
+  <data name="BuiltIn_completed" xml:space="preserve">
+    <value>مكتمل</value>
+  </data>
+  <data name="BuiltIn_data" xml:space="preserve">
+    <value>تحليل البيانات</value>
+  </data>
+  <data name="BuiltIn_laboratory" xml:space="preserve">
+    <value>البحث المخبري</value>
+  </data>
+  <data name="BuiltIn_literature" xml:space="preserve">
+    <value>المراجع</value>
+  </data>
+  <data name="BuiltIn_pictures" xml:space="preserve">
+    <value>الصور</value>
+  </data>
+  <data name="BuiltIn_todo" xml:space="preserve">
+    <value>المهام</value>
+  </data>
+  <data name="BuiltInFolder" xml:space="preserve">
+    <value>أيقونات مضمنة · مجلدات Fluent</value>
+  </data>
+  <data name="BuiltInSource" xml:space="preserve">
+    <value>مضمن في IconFlow</value>
+  </data>
+  <data name="ChangeIcon" xml:space="preserve">
+    <value>تغيير الأيقونة</value>
+  </data>
+  <data name="ChangeMigrate.Content" xml:space="preserve">
+    <value>تغيير ونقل</value>
+  </data>
+  <data name="ChooseFolder.Content" xml:space="preserve">
+    <value>اختيار مجلد</value>
+  </data>
+  <data name="ChooseShortcut.Content" xml:space="preserve">
+    <value>اختيار اختصار</value>
+  </data>
+  <data name="CompatMenu.Header" xml:space="preserve">
+    <value>قائمة مستكشف متوافقة</value>
+  </data>
+  <data name="CompatMenu.OffContent" xml:space="preserve">
+    <value>إيقاف</value>
+  </data>
+  <data name="CompatMenu.OnContent" xml:space="preserve">
+    <value>تشغيل</value>
+  </data>
+  <data name="DataHeader.Text" xml:space="preserve">
+    <value>البيانات</value>
+  </data>
+  <data name="DropTargetSubtitle.Text" xml:space="preserve">
+    <value>يمكنك أيضاً إفلات صورة لإنشاء ICO</value>
+  </data>
+  <data name="DropTargetTitle.Text" xml:space="preserve">
+    <value>أفلت مجلداً أو اختصاراً</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>تحرير</value>
+  </data>
+  <data name="EditorAspect.Header" xml:space="preserve">
+    <value>نسبة القص</value>
+  </data>
+  <data name="EditorBlack.Content" xml:space="preserve">
+    <value>أسود</value>
+  </data>
+  <data name="EditorBottomColor.Header" xml:space="preserve">
+    <value>لون الخلفية</value>
+  </data>
+  <data name="EditorCancel.Content" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="EditorColorGreen.Content" xml:space="preserve">
+    <value>أخضر</value>
+  </data>
+  <data name="EditorCoral.Content" xml:space="preserve">
+    <value>مرجاني</value>
+  </data>
+  <data name="EditorCorner.Text" xml:space="preserve">
+    <value>زوايا الصورة</value>
+  </data>
+  <data name="EditorCyan.Content" xml:space="preserve">
+    <value>سماوي</value>
+  </data>
+  <data name="EditorDarkGray.Content" xml:space="preserve">
+    <value>رمادي داكن</value>
+  </data>
+  <data name="EditorGreen.Content" xml:space="preserve">
+    <value>أخضر</value>
+  </data>
+  <data name="EditorHorizontal.Text" xml:space="preserve">
+    <value>الموضع الأفقي</value>
+  </data>
+  <data name="EditorIndigo.Content" xml:space="preserve">
+    <value>نيلي</value>
+  </data>
+  <data name="EditorLightGray.Content" xml:space="preserve">
+    <value>رمادي فاتح</value>
+  </data>
+  <data name="EditorLocalOnly.Text" xml:space="preserve">
+    <value>تتم جميع المعالجة محلياً</value>
+  </data>
+  <data name="EditorMagenta.Content" xml:space="preserve">
+    <value>أرجواني</value>
+  </data>
+  <data name="EditorOriginalRatio.Content" xml:space="preserve">
+    <value>حر / أصلي</value>
+  </data>
+  <data name="EditorPadding.Text" xml:space="preserve">
+    <value>هامش شفاف</value>
+  </data>
+  <data name="EditorRemoveBackground.Header" xml:space="preserve">
+    <value>إزالة لون الخلفية</value>
+  </data>
+  <data name="EditorRemoveBackground.OffContent" xml:space="preserve">
+    <value>الاحتفاظ بالخلفية</value>
+  </data>
+  <data name="EditorRemoveBackground.OnContent" xml:space="preserve">
+    <value>جعله شفافاً</value>
+  </data>
+  <data name="EditorRemoveColor.Header" xml:space="preserve">
+    <value>اللون المراد إزالته</value>
+  </data>
+  <data name="EditorSave.Content" xml:space="preserve">
+    <value>حفظ الأيقونة</value>
+  </data>
+  <data name="EditorShape.Header" xml:space="preserve">
+    <value>شكل الخلفية</value>
+  </data>
+  <data name="EditorShapeCircle.Content" xml:space="preserve">
+    <value>دائرة</value>
+  </data>
+  <data name="EditorShapeNone.Content" xml:space="preserve">
+    <value>بلا</value>
+  </data>
+  <data name="EditorShapeRounded.Content" xml:space="preserve">
+    <value>مربع مستدير</value>
+  </data>
+  <data name="EditorShapeSquircle.Content" xml:space="preserve">
+    <value>مربع دائري بنمط Windows 11</value>
+  </data>
+  <data name="EditorTitleBar.Subtitle" xml:space="preserve">
+    <value>القص والنمط</value>
+  </data>
+  <data name="EditorTitleBar.Title" xml:space="preserve">
+    <value>تحرير</value>
+  </data>
+  <data name="EditorTolerance.Text" xml:space="preserve">
+    <value>تفاوت اللون</value>
+  </data>
+  <data name="EditorVertical.Text" xml:space="preserve">
+    <value>الموضع الرأسي</value>
+  </data>
+  <data name="EditorWhite.Content" xml:space="preserve">
+    <value>أبيض</value>
+  </data>
+  <data name="EditorZoom.Text" xml:space="preserve">
+    <value>تكبير</value>
+  </data>
+  <data name="Favorite" xml:space="preserve">
+    <value>مفضلة</value>
+  </data>
+  <data name="FolderRename.Text" xml:space="preserve">
+    <value>إعادة تسمية المجلد</value>
+  </data>
+  <data name="GeneratingSizes" xml:space="preserve">
+    <value>جارٍ إنشاء 7 أحجام للأيقونة…</value>
+  </data>
+  <data name="HistoryHeader.Text" xml:space="preserve">
+    <value>السجل والاستعادة</value>
+  </data>
+  <data name="HistorySubtitle.Text" xml:space="preserve">
+    <value>يتم تجميع تغييرات العنصر نفسه؛ وسّع للمقارنة</value>
+  </data>
+  <data name="HistorySummary" xml:space="preserve">
+    <value>{0} تغييرات · الأحدث {1}</value>
+  </data>
+  <data name="HomeHeader.Text" xml:space="preserve">
+    <value>تغيير سريع</value>
+  </data>
+  <data name="HomeSubtitle.Text" xml:space="preserve">
+    <value>حدد عنصراً ثم اختر أيقونة</value>
+  </data>
+  <data name="IconDelete.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="IconEdit.Text" xml:space="preserve">
+    <value>تحرير</value>
+  </data>
+  <data name="IconMove.Text" xml:space="preserve">
+    <value>نقل إلى مجلد…</value>
+  </data>
+  <data name="IconRename.Text" xml:space="preserve">
+    <value>إعادة تسمية</value>
+  </data>
+  <data name="ImportIconText.Text" xml:space="preserve">
+    <value>استيراد الأيقونات</value>
+  </data>
+  <data name="ImportText.Text" xml:space="preserve">
+    <value>استيراد</value>
+  </data>
+  <data name="InstallModernMenu.Content" xml:space="preserve">
+    <value>تثبيت / إصلاح قائمة Windows 11</value>
+  </data>
+  <data name="IntegrationHeader.Text" xml:space="preserve">
+    <value>تكامل النظام</value>
+  </data>
+  <data name="LanguageCombo.Header" xml:space="preserve">
+    <value>اللغة</value>
+  </data>
+  <data name="LanguageRestartMessage" xml:space="preserve">
+    <value>أعد فتح IconFlow لتطبيق اللغة الجديدة.</value>
+  </data>
+  <data name="LanguageSavedTitle" xml:space="preserve">
+    <value>تم حفظ اللغة</value>
+  </data>
+  <data name="LibraryHeader.Text" xml:space="preserve">
+    <value>مكتبة الأيقونات</value>
+  </data>
+  <data name="LibrarySearch.PlaceholderText" xml:space="preserve">
+    <value>البحث بالاسم أو الوسم أو المصدر</value>
+  </data>
+  <data name="LibrarySubtitle.Text" xml:space="preserve">
+    <value>اسحب الأيقونات إلى المجلدات لتنظيمها</value>
+  </data>
+  <data name="LocalMode.Text" xml:space="preserve">
+    <value>WinUI 3 · عملية واحدة · بدون Chromium · محلي</value>
+  </data>
+  <data name="MigrateNote.Text" xml:space="preserve">
+    <value>يتم نسخ الأيقونات والتحقق منها قبل التبديل؛ وتظل الأيقونات المطبقة صالحة.</value>
+  </data>
+  <data name="ModernMenuEnabled" xml:space="preserve">
+    <value>تم تمكين قائمة السياق الرئيسية في Windows 11.</value>
+  </data>
+  <data name="ModernMenuPortable" xml:space="preserve">
+    <value>وضع التوافق المحمول نشط. ثبّت مكوّن القائمة الحديثة لاستخدام قائمة Windows 11 الرئيسية.</value>
+  </data>
+  <data name="ModernStatus.Text" xml:space="preserve">
+    <value>جارٍ فحص قائمة Windows 11 الحديثة…</value>
+  </data>
+  <data name="NavHistory.Content" xml:space="preserve">
+    <value>السجل والاستعادة</value>
+  </data>
+  <data name="NavHome.Content" xml:space="preserve">
+    <value>تغيير سريع</value>
+  </data>
+  <data name="NavLibrary.Content" xml:space="preserve">
+    <value>مكتبة الأيقونات</value>
+  </data>
+  <data name="NewFolder.Content" xml:space="preserve">
+    <value>مجلد جديد</value>
+  </data>
+  <data name="NoHistory.Text" xml:space="preserve">
+    <value>لا توجد تغييرات بعد</value>
+  </data>
+  <data name="NoHistoryValue" xml:space="preserve">
+    <value>لا توجد تغييرات بعد</value>
+  </data>
+  <data name="NoTarget.Text" xml:space="preserve">
+    <value>لم يتم تحديد عنصر</value>
+  </data>
+  <data name="OpenLocationButton.Content" xml:space="preserve">
+    <value>فتح الموقع</value>
+  </data>
+  <data name="OpenLocationText.Text" xml:space="preserve">
+    <value>فتح الموقع</value>
+  </data>
+  <data name="PermissionsNote.Text" xml:space="preserve">
+    <value>لا تتطلب الميزات العادية صلاحيات المسؤول. يؤدي إغلاق النافذة إلى إنهاء التطبيق.</value>
+  </data>
+  <data name="QuickEmptySubtitle.Text" xml:space="preserve">
+    <value>يتم تحديد الأيقونة المستوردة وتطبيقها تلقائياً</value>
+  </data>
+  <data name="QuickEmptyTitle.Text" xml:space="preserve">
+    <value>أفلت صورة أو انقر فوق استيراد</value>
+  </data>
+  <data name="QuickIconDelete.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="QuickIconEdit.Text" xml:space="preserve">
+    <value>تحرير</value>
+  </data>
+  <data name="QuickIconMove.Text" xml:space="preserve">
+    <value>نقل إلى مجلد…</value>
+  </data>
+  <data name="QuickIconRename.Text" xml:space="preserve">
+    <value>إعادة تسمية</value>
+  </data>
+  <data name="QuickImport.Content" xml:space="preserve">
+    <value>استيراد</value>
+  </data>
+  <data name="QuickImportIcon.Content" xml:space="preserve">
+    <value>استيراد الأيقونات</value>
+  </data>
+  <data name="QuickNewFolder.Text" xml:space="preserve">
+    <value>مجلد جديد</value>
+  </data>
+  <data name="QuickOpenMain.Content" xml:space="preserve">
+    <value>فتح النافذة الرئيسية</value>
+  </data>
+  <data name="QuickReading.Text" xml:space="preserve">
+    <value>جارٍ قراءة العنصر…</value>
+  </data>
+  <data name="QuickRenameFolder.Text" xml:space="preserve">
+    <value>إعادة تسمية المجلد الحالي</value>
+  </data>
+  <data name="QuickRestore.Content" xml:space="preserve">
+    <value>استعادة الافتراضي</value>
+  </data>
+  <data name="QuickSearch.PlaceholderText" xml:space="preserve">
+    <value>البحث عن الأيقونات</value>
+  </data>
+  <data name="QuickTitleBar.Title" xml:space="preserve">
+    <value>تغيير الأيقونة</value>
+  </data>
+  <data name="QuickUndo.Content" xml:space="preserve">
+    <value>تراجع</value>
+  </data>
+  <data name="RecentAction.Text" xml:space="preserve">
+    <value>النشاط الأخير</value>
+  </data>
+  <data name="RecentUsed.Text" xml:space="preserve">
+    <value>المستخدمة مؤخراً</value>
+  </data>
+  <data name="RestoreDefault" xml:space="preserve">
+    <value>استعادة الافتراضي</value>
+  </data>
+  <data name="SettingsHeader.Text" xml:space="preserve">
+    <value>الإعدادات</value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>الإعدادات</value>
+  </data>
+  <data name="StartToggle.Header" xml:space="preserve">
+    <value>بدء التشغيل عند تسجيل الدخول</value>
+  </data>
+  <data name="StartToggle.OffContent" xml:space="preserve">
+    <value>متوقف افتراضياً</value>
+  </data>
+  <data name="StartToggle.OnContent" xml:space="preserve">
+    <value>تشغيل</value>
+  </data>
+  <data name="StorageHeader.Text" xml:space="preserve">
+    <value>موقع مكتبة الأيقونات</value>
+  </data>
+  <data name="ThemeCombo.Header" xml:space="preserve">
+    <value>السمة</value>
+  </data>
+  <data name="ThemeDark.Content" xml:space="preserve">
+    <value>داكن</value>
+  </data>
+  <data name="ThemeLight.Content" xml:space="preserve">
+    <value>فاتح</value>
+  </data>
+  <data name="ThemeSystem.Content" xml:space="preserve">
+    <value>استخدام إعداد النظام</value>
+  </data>
+  <data name="Undoable" xml:space="preserve">
+    <value>يمكن التراجع</value>
+  </data>
+  <data name="UndoChangeButton.Content" xml:space="preserve">
+    <value>التراجع عن التغيير</value>
+  </data>
+  <data name="Undone" xml:space="preserve">
+    <value>تم التراجع</value>
+  </data>
+  <data name="UndoRecentText.Text" xml:space="preserve">
+    <value>التراجع عن الأحدث</value>
+  </data>
+  <data name="UndoText.Text" xml:space="preserve">
+    <value>تراجع</value>
+  </data>
+  <data name="UndoThis.Content" xml:space="preserve">
+    <value>التراجع عن هذا التغيير</value>
+  </data>
+  <data name="Unfavorite" xml:space="preserve">
+    <value>إزالة من المفضلة</value>
+  </data>
+  <data name="Unused" xml:space="preserve">
+    <value>غير مستخدم</value>
+  </data>
+  <data name="UsedCount" xml:space="preserve">
+    <value>استُخدمت {0} مرة</value>
+  </data>
+</root>

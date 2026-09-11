@@ -1,0 +1,4 @@
+window=quick-change
+ready_ms=603
+working_set_mb=120.4
+processes=1

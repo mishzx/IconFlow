@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  xmlns:uap10="http://schemas.microsoft.com/appx/manifest/uap/windows10/10"
+  xmlns:desktop4="http://schemas.microsoft.com/appx/manifest/desktop/windows10/4"
+  xmlns:desktop6="http://schemas.microsoft.com/appx/manifest/desktop/windows10/6"
+  xmlns:com="http://schemas.microsoft.com/appx/manifest/com/windows10"
+  xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+  IgnorableNamespaces="uap uap10 desktop4 desktop6 com rescap">
+  <Identity Name="IconFlow" Publisher="CN=IconFlow" Version="0.8.1.0" ProcessorArchitecture="neutral" />
+  <Properties>
+    <DisplayName>IconFlow</DisplayName><PublisherDisplayName>IconFlow</PublisherDisplayName><Logo>Assets\StoreLogo.png</Logo>
+    <uap10:AllowExternalContent>true</uap10:AllowExternalContent>
+    <desktop6:RegistryWriteVirtualization>disabled</desktop6:RegistryWriteVirtualization>
+  </Properties>
+  <Dependencies><TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26200.0" /></Dependencies>
+  <Resources>
+    <Resource Language="zh-cn"/><Resource Language="zh-tw"/><Resource Language="en-us"/>
+    <Resource Language="es-es"/><Resource Language="fr-fr"/><Resource Language="de-de"/>
+    <Resource Language="pt-br"/><Resource Language="ja-jp"/><Resource Language="ko-kr"/>
+    <Resource Language="ru-ru"/><Resource Language="ar-sa"/>
+  </Resources>
+  <Applications>
+    <Application Id="iconFlow" Executable="IconFlow.PackageHost.exe" uap10:RuntimeBehavior="win32App" uap10:TrustLevel="mediumIL">
+      <uap:VisualElements AppListEntry="none" DisplayName="IconFlow" Description="IconFlow" BackgroundColor="transparent" Square150x150Logo="Assets\MedTile.png" Square44x44Logo="Assets\AppList.png" />
+      <Extensions>
+        <com:Extension Category="windows.comServer">
+          <com:ComServer><com:SurrogateServer AppId="7F49E25B-47E3-47F7-B49A-2CD3F4C6A301" DisplayName="IconFlow"><com:Class Id="7F49E25B-47E3-47F7-B49A-2CD3F4C6A301" Path="IconFlow.ShellExtension.dll" ThreadingModel="STA"/></com:SurrogateServer></com:ComServer>
+        </com:Extension>
+        <desktop4:Extension Category="windows.fileExplorerContextMenus">
+          <desktop4:FileExplorerContextMenus>
+            <desktop4:ItemType Type="*"><desktop4:Verb Id="IconFlowChangeIcon" Clsid="7F49E25B-47E3-47F7-B49A-2CD3F4C6A301"/></desktop4:ItemType>
+          </desktop4:FileExplorerContextMenus>
+        </desktop4:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities><rescap:Capability Name="runFullTrust"/><rescap:Capability Name="unvirtualizedResources"/></Capabilities>
+</Package>

@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AfterText.Text" xml:space="preserve">
+    <value>変更後</value>
+  </data>
+  <data name="AllIcons" xml:space="preserve">
+    <value>すべてのアイコン</value>
+  </data>
+  <data name="AppearanceHeader.Text" xml:space="preserve">
+    <value>外観</value>
+  </data>
+  <data name="AppTitleBar.Subtitle" xml:space="preserve">
+    <value>アイコン管理</value>
+  </data>
+  <data name="AutoBackup.Text" xml:space="preserve">
+    <value>変更前に自動バックアップ</value>
+  </data>
+  <data name="AutoBackupValue" xml:space="preserve">
+    <value>変更前に自動バックアップ</value>
+  </data>
+  <data name="BeforeText.Text" xml:space="preserve">
+    <value>変更前</value>
+  </data>
+  <data name="BuiltIn_archive" xml:space="preserve">
+    <value>アーカイブ</value>
+  </data>
+  <data name="BuiltIn_clinical" xml:space="preserve">
+    <value>臨床医療</value>
+  </data>
+  <data name="BuiltIn_code" xml:space="preserve">
+    <value>コード開発</value>
+  </data>
+  <data name="BuiltIn_completed" xml:space="preserve">
+    <value>完了</value>
+  </data>
+  <data name="BuiltIn_data" xml:space="preserve">
+    <value>データ分析</value>
+  </data>
+  <data name="BuiltIn_laboratory" xml:space="preserve">
+    <value>実験研究</value>
+  </data>
+  <data name="BuiltIn_literature" xml:space="preserve">
+    <value>文献資料</value>
+  </data>
+  <data name="BuiltIn_pictures" xml:space="preserve">
+    <value>画像アルバム</value>
+  </data>
+  <data name="BuiltIn_todo" xml:space="preserve">
+    <value>未処理</value>
+  </data>
+  <data name="BuiltInFolder" xml:space="preserve">
+    <value>内蔵アイコン · Fluent フォルダー</value>
+  </data>
+  <data name="BuiltInSource" xml:space="preserve">
+    <value>IconFlow 内蔵</value>
+  </data>
+  <data name="ChangeIcon" xml:space="preserve">
+    <value>アイコンを変更</value>
+  </data>
+  <data name="ChangeMigrate.Content" xml:space="preserve">
+    <value>変更して移行</value>
+  </data>
+  <data name="ChooseFolder.Content" xml:space="preserve">
+    <value>フォルダーを選択</value>
+  </data>
+  <data name="ChooseShortcut.Content" xml:space="preserve">
+    <value>ショートカットを選択</value>
+  </data>
+  <data name="CompatMenu.Header" xml:space="preserve">
+    <value>互換エクスプローラーコンテキストメニュー</value>
+  </data>
+  <data name="CompatMenu.OffContent" xml:space="preserve">
+    <value>オフ</value>
+  </data>
+  <data name="CompatMenu.OnContent" xml:space="preserve">
+    <value>オン</value>
+  </data>
+  <data name="DataHeader.Text" xml:space="preserve">
+    <value>データ</value>
+  </data>
+  <data name="DropTargetSubtitle.Text" xml:space="preserve">
+    <value>画像をドロップして ICO を自動作成</value>
+  </data>
+  <data name="DropTargetTitle.Text" xml:space="preserve">
+    <value>フォルダーまたはショートカットをドロップ</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="EditorAspect.Header" xml:space="preserve">
+    <value>切り抜き比率</value>
+  </data>
+  <data name="EditorBlack.Content" xml:space="preserve">
+    <value>黒</value>
+  </data>
+  <data name="EditorBottomColor.Header" xml:space="preserve">
+    <value>背景色</value>
+  </data>
+  <data name="EditorCancel.Content" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="EditorColorGreen.Content" xml:space="preserve">
+    <value>緑</value>
+  </data>
+  <data name="EditorCoral.Content" xml:space="preserve">
+    <value>コーラル</value>
+  </data>
+  <data name="EditorCorner.Text" xml:space="preserve">
+    <value>画像の角丸</value>
+  </data>
+  <data name="EditorCyan.Content" xml:space="preserve">
+    <value>シアン</value>
+  </data>
+  <data name="EditorDarkGray.Content" xml:space="preserve">
+    <value>ダークグレー</value>
+  </data>
+  <data name="EditorGreen.Content" xml:space="preserve">
+    <value>緑</value>
+  </data>
+  <data name="EditorHorizontal.Text" xml:space="preserve">
+    <value>水平位置</value>
+  </data>
+  <data name="EditorIndigo.Content" xml:space="preserve">
+    <value>インディゴ</value>
+  </data>
+  <data name="EditorLightGray.Content" xml:space="preserve">
+    <value>ライトグレー</value>
+  </data>
+  <data name="EditorLocalOnly.Text" xml:space="preserve">
+    <value>すべてローカルで処理されます</value>
+  </data>
+  <data name="EditorMagenta.Content" xml:space="preserve">
+    <value>マゼンタ</value>
+  </data>
+  <data name="EditorOriginalRatio.Content" xml:space="preserve">
+    <value>自由 / 元の比率</value>
+  </data>
+  <data name="EditorPadding.Text" xml:space="preserve">
+    <value>透明な余白</value>
+  </data>
+  <data name="EditorRemoveBackground.Header" xml:space="preserve">
+    <value>背景色を削除</value>
+  </data>
+  <data name="EditorRemoveBackground.OffContent" xml:space="preserve">
+    <value>背景を保持</value>
+  </data>
+  <data name="EditorRemoveBackground.OnContent" xml:space="preserve">
+    <value>透明にする</value>
+  </data>
+  <data name="EditorRemoveColor.Header" xml:space="preserve">
+    <value>削除する色</value>
+  </data>
+  <data name="EditorSave.Content" xml:space="preserve">
+    <value>アイコンを保存</value>
+  </data>
+  <data name="EditorShape.Header" xml:space="preserve">
+    <value>背景図形</value>
+  </data>
+  <data name="EditorShapeCircle.Content" xml:space="preserve">
+    <value>円</value>
+  </data>
+  <data name="EditorShapeNone.Content" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="EditorShapeRounded.Content" xml:space="preserve">
+    <value>角丸四角形</value>
+  </data>
+  <data name="EditorShapeSquircle.Content" xml:space="preserve">
+    <value>Windows 11 スクワークル</value>
+  </data>
+  <data name="EditorTitleBar.Subtitle" xml:space="preserve">
+    <value>切り抜きとスタイル</value>
+  </data>
+  <data name="EditorTitleBar.Title" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="EditorTolerance.Text" xml:space="preserve">
+    <value>色の許容範囲</value>
+  </data>
+  <data name="EditorVertical.Text" xml:space="preserve">
+    <value>垂直位置</value>
+  </data>
+  <data name="EditorWhite.Content" xml:space="preserve">
+    <value>白</value>
+  </data>
+  <data name="EditorZoom.Text" xml:space="preserve">
+    <value>ズーム</value>
+  </data>
+  <data name="Favorite" xml:space="preserve">
+    <value>お気に入り</value>
+  </data>
+  <data name="FolderRename.Text" xml:space="preserve">
+    <value>フォルダー名を変更</value>
+  </data>
+  <data name="GeneratingSizes" xml:space="preserve">
+    <value>7 種類のサイズを生成しています…</value>
+  </data>
+  <data name="HistoryHeader.Text" xml:space="preserve">
+    <value>履歴と復元</value>
+  </data>
+  <data name="HistorySubtitle.Text" xml:space="preserve">
+    <value>同じ対象の変更はまとめられます。展開して比較できます</value>
+  </data>
+  <data name="HistorySummary" xml:space="preserve">
+    <value>{0} 件の変更 · 最新 {1}</value>
+  </data>
+  <data name="HomeHeader.Text" xml:space="preserve">
+    <value>クイック変更</value>
+  </data>
+  <data name="HomeSubtitle.Text" xml:space="preserve">
+    <value>対象を選び、アイコンを選択</value>
+  </data>
+  <data name="IconDelete.Text" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="IconEdit.Text" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="IconMove.Text" xml:space="preserve">
+    <value>フォルダーへ移動…</value>
+  </data>
+  <data name="IconRename.Text" xml:space="preserve">
+    <value>名前を変更</value>
+  </data>
+  <data name="ImportIconText.Text" xml:space="preserve">
+    <value>アイコンをインポート</value>
+  </data>
+  <data name="ImportText.Text" xml:space="preserve">
+    <value>インポート</value>
+  </data>
+  <data name="InstallModernMenu.Content" xml:space="preserve">
+    <value>Windows 11 メニューをインストール / 修復</value>
+  </data>
+  <data name="IntegrationHeader.Text" xml:space="preserve">
+    <value>システム統合</value>
+  </data>
+  <data name="LanguageCombo.Header" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="LanguageRestartMessage" xml:space="preserve">
+    <value>IconFlow を開き直すと言語が適用されます。</value>
+  </data>
+  <data name="LanguageSavedTitle" xml:space="preserve">
+    <value>言語を保存しました</value>
+  </data>
+  <data name="LibraryHeader.Text" xml:space="preserve">
+    <value>アイコンライブラリ</value>
+  </data>
+  <data name="LibrarySearch.PlaceholderText" xml:space="preserve">
+    <value>名前、タグ、ソースを検索</value>
+  </data>
+  <data name="LibrarySubtitle.Text" xml:space="preserve">
+    <value>アイコンをフォルダーへドラッグして整理</value>
+  </data>
+  <data name="LocalMode.Text" xml:space="preserve">
+    <value>WinUI 3 · 単一プロセス · Chromium なし · ローカル</value>
+  </data>
+  <data name="MigrateNote.Text" xml:space="preserve">
+    <value>切り替え前にコピーと検証を行います。適用済みアイコンは失われません。</value>
+  </data>
+  <data name="ModernMenuEnabled" xml:space="preserve">
+    <value>Windows 11 の新しいコンテキストメニューが有効です。</value>
+  </data>
+  <data name="ModernMenuPortable" xml:space="preserve">
+    <value>ポータブル互換モードです。Windows 11 の新しいメニューを使うにはメニューコンポーネントをインストールしてください。</value>
+  </data>
+  <data name="ModernStatus.Text" xml:space="preserve">
+    <value>Windows 11 の新メニューを確認中…</value>
+  </data>
+  <data name="NavHistory.Content" xml:space="preserve">
+    <value>履歴と復元</value>
+  </data>
+  <data name="NavHome.Content" xml:space="preserve">
+    <value>クイック変更</value>
+  </data>
+  <data name="NavLibrary.Content" xml:space="preserve">
+    <value>アイコンライブラリ</value>
+  </data>
+  <data name="NewFolder.Content" xml:space="preserve">
+    <value>新しいフォルダー</value>
+  </data>
+  <data name="NoHistory.Text" xml:space="preserve">
+    <value>変更履歴はありません</value>
+  </data>
+  <data name="NoHistoryValue" xml:space="preserve">
+    <value>変更履歴はありません</value>
+  </data>
+  <data name="NoTarget.Text" xml:space="preserve">
+    <value>対象が選択されていません</value>
+  </data>
+  <data name="OpenLocationButton.Content" xml:space="preserve">
+    <value>場所を開く</value>
+  </data>
+  <data name="OpenLocationText.Text" xml:space="preserve">
+    <value>場所を開く</value>
+  </data>
+  <data name="PermissionsNote.Text" xml:space="preserve">
+    <value>通常機能に管理者権限は不要です。ウィンドウを閉じると終了します。</value>
+  </data>
+  <data name="QuickEmptySubtitle.Text" xml:space="preserve">
+    <value>インポート後に自動選択して適用</value>
+  </data>
+  <data name="QuickEmptyTitle.Text" xml:space="preserve">
+    <value>画像をドロップするかインポート</value>
+  </data>
+  <data name="QuickIconDelete.Text" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="QuickIconEdit.Text" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="QuickIconMove.Text" xml:space="preserve">
+    <value>フォルダーへ移動…</value>
+  </data>
+  <data name="QuickIconRename.Text" xml:space="preserve">
+    <value>名前を変更</value>
+  </data>
+  <data name="QuickImport.Content" xml:space="preserve">
+    <value>インポート</value>
+  </data>
+  <data name="QuickImportIcon.Content" xml:space="preserve">
+    <value>アイコンをインポート</value>
+  </data>
+  <data name="QuickNewFolder.Text" xml:space="preserve">
+    <value>新しいフォルダー</value>
+  </data>
+  <data name="QuickOpenMain.Content" xml:space="preserve">
+    <value>メイン画面を開く</value>
+  </data>
+  <data name="QuickReading.Text" xml:space="preserve">
+    <value>対象を読み込み中…</value>
+  </data>
+  <data name="QuickRenameFolder.Text" xml:space="preserve">
+    <value>現在のフォルダー名を変更</value>
+  </data>
+  <data name="QuickRestore.Content" xml:space="preserve">
+    <value>既定に戻す</value>
+  </data>
+  <data name="QuickSearch.PlaceholderText" xml:space="preserve">
+    <value>アイコンを検索</value>
+  </data>
+  <data name="QuickTitleBar.Title" xml:space="preserve">
+    <value>アイコンを変更</value>
+  </data>
+  <data name="QuickUndo.Content" xml:space="preserve">
+    <value>元に戻す</value>
+  </data>
+  <data name="RecentAction.Text" xml:space="preserve">
+    <value>最近の操作</value>
+  </data>
+  <data name="RecentUsed.Text" xml:space="preserve">
+    <value>最近使用</value>
+  </data>
+  <data name="RestoreDefault" xml:space="preserve">
+    <value>既定に戻す</value>
+  </data>
+  <data name="SettingsHeader.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="StartToggle.Header" xml:space="preserve">
+    <value>サインイン時に起動</value>
+  </data>
+  <data name="StartToggle.OffContent" xml:space="preserve">
+    <value>既定ではオフ</value>
+  </data>
+  <data name="StartToggle.OnContent" xml:space="preserve">
+    <value>オン</value>
+  </data>
+  <data name="StorageHeader.Text" xml:space="preserve">
+    <value>アイコンライブラリの場所</value>
+  </data>
+  <data name="ThemeCombo.Header" xml:space="preserve">
+    <value>テーマ</value>
+  </data>
+  <data name="ThemeDark.Content" xml:space="preserve">
+    <value>ダーク</value>
+  </data>
+  <data name="ThemeLight.Content" xml:space="preserve">
+    <value>ライト</value>
+  </data>
+  <data name="ThemeSystem.Content" xml:space="preserve">
+    <value>システム設定を使用</value>
+  </data>
+  <data name="Undoable" xml:space="preserve">
+    <value>元に戻せます</value>
+  </data>
+  <data name="UndoChangeButton.Content" xml:space="preserve">
+    <value>変更を元に戻す</value>
+  </data>
+  <data name="Undone" xml:space="preserve">
+    <value>取り消し済み</value>
+  </data>
+  <data name="UndoRecentText.Text" xml:space="preserve">
+    <value>最新を元に戻す</value>
+  </data>
+  <data name="UndoText.Text" xml:space="preserve">
+    <value>元に戻す</value>
+  </data>
+  <data name="UndoThis.Content" xml:space="preserve">
+    <value>この変更を元に戻す</value>
+  </data>
+  <data name="Unfavorite" xml:space="preserve">
+    <value>お気に入り解除</value>
+  </data>
+  <data name="Unused" xml:space="preserve">
+    <value>未使用</value>
+  </data>
+  <data name="UsedCount" xml:space="preserve">
+    <value>{0} 回使用</value>
+  </data>
+</root>

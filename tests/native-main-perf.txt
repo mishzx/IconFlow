@@ -1,0 +1,4 @@
+window=main
+ready_ms=524
+working_set_mb=111.0
+processes=1

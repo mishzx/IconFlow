@@ -1,0 +1,8 @@
+<Project>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+    <PathMap>$(MSBuildProjectDirectory)=/_/src/$(MSBuildProjectName)</PathMap>
+  </PropertyGroup>
+</Project>

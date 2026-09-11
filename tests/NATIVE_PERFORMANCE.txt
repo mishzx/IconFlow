@@ -1,0 +1,13 @@
+
+Mode         : main
+ReadyMs      : 367
+WorkingSetMB : 142.8
+PrivateMB    : 94.9
+ProcessCount : 1
+
+Mode         : quick
+ReadyMs      : 321
+WorkingSetMB : 147.6
+PrivateMB    : 97.8
+ProcessCount : 1
+

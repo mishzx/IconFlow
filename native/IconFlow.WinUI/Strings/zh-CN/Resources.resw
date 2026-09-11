@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AfterText.Text" xml:space="preserve">
+    <value>修改后</value>
+  </data>
+  <data name="AllIcons" xml:space="preserve">
+    <value>全部图标</value>
+  </data>
+  <data name="AppearanceHeader.Text" xml:space="preserve">
+    <value>外观</value>
+  </data>
+  <data name="AppTitleBar.Subtitle" xml:space="preserve">
+    <value>图标管理器</value>
+  </data>
+  <data name="AutoBackup.Text" xml:space="preserve">
+    <value>修改前会自动备份</value>
+  </data>
+  <data name="AutoBackupValue" xml:space="preserve">
+    <value>修改前会自动备份</value>
+  </data>
+  <data name="BeforeText.Text" xml:space="preserve">
+    <value>修改前</value>
+  </data>
+  <data name="BuiltIn_archive" xml:space="preserve">
+    <value>归档资料</value>
+  </data>
+  <data name="BuiltIn_clinical" xml:space="preserve">
+    <value>临床医疗</value>
+  </data>
+  <data name="BuiltIn_code" xml:space="preserve">
+    <value>代码开发</value>
+  </data>
+  <data name="BuiltIn_completed" xml:space="preserve">
+    <value>已完成</value>
+  </data>
+  <data name="BuiltIn_data" xml:space="preserve">
+    <value>数据分析</value>
+  </data>
+  <data name="BuiltIn_laboratory" xml:space="preserve">
+    <value>实验研究</value>
+  </data>
+  <data name="BuiltIn_literature" xml:space="preserve">
+    <value>文献资料</value>
+  </data>
+  <data name="BuiltIn_pictures" xml:space="preserve">
+    <value>图片相册</value>
+  </data>
+  <data name="BuiltIn_todo" xml:space="preserve">
+    <value>待办事项</value>
+  </data>
+  <data name="BuiltInFolder" xml:space="preserve">
+    <value>内置图标 · Fluent 文件夹</value>
+  </data>
+  <data name="BuiltInSource" xml:space="preserve">
+    <value>IconFlow 内置</value>
+  </data>
+  <data name="ChangeIcon" xml:space="preserve">
+    <value>更换图标</value>
+  </data>
+  <data name="ChangeMigrate.Content" xml:space="preserve">
+    <value>更改并迁移</value>
+  </data>
+  <data name="ChooseFolder.Content" xml:space="preserve">
+    <value>选择文件夹</value>
+  </data>
+  <data name="ChooseShortcut.Content" xml:space="preserve">
+    <value>选择快捷方式</value>
+  </data>
+  <data name="CompatMenu.Header" xml:space="preserve">
+    <value>资源管理器兼容右键菜单</value>
+  </data>
+  <data name="CompatMenu.OffContent" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="CompatMenu.OnContent" xml:space="preserve">
+    <value>开启</value>
+  </data>
+  <data name="DataHeader.Text" xml:space="preserve">
+    <value>数据</value>
+  </data>
+  <data name="DropTargetSubtitle.Text" xml:space="preserve">
+    <value>也可以拖入图片，自动生成 ICO</value>
+  </data>
+  <data name="DropTargetTitle.Text" xml:space="preserve">
+    <value>拖入文件夹或快捷方式</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="EditorAspect.Header" xml:space="preserve">
+    <value>裁剪比例</value>
+  </data>
+  <data name="EditorBlack.Content" xml:space="preserve">
+    <value>黑色</value>
+  </data>
+  <data name="EditorBottomColor.Header" xml:space="preserve">
+    <value>底层颜色</value>
+  </data>
+  <data name="EditorCancel.Content" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="EditorColorGreen.Content" xml:space="preserve">
+    <value>绿色</value>
+  </data>
+  <data name="EditorCoral.Content" xml:space="preserve">
+    <value>珊瑚红</value>
+  </data>
+  <data name="EditorCorner.Text" xml:space="preserve">
+    <value>图像圆角</value>
+  </data>
+  <data name="EditorCyan.Content" xml:space="preserve">
+    <value>青色</value>
+  </data>
+  <data name="EditorDarkGray.Content" xml:space="preserve">
+    <value>深灰</value>
+  </data>
+  <data name="EditorGreen.Content" xml:space="preserve">
+    <value>绿色</value>
+  </data>
+  <data name="EditorHorizontal.Text" xml:space="preserve">
+    <value>水平位置</value>
+  </data>
+  <data name="EditorIndigo.Content" xml:space="preserve">
+    <value>靛蓝</value>
+  </data>
+  <data name="EditorLightGray.Content" xml:space="preserve">
+    <value>浅灰</value>
+  </data>
+  <data name="EditorLocalOnly.Text" xml:space="preserve">
+    <value>所有处理均在本地完成</value>
+  </data>
+  <data name="EditorMagenta.Content" xml:space="preserve">
+    <value>洋红色</value>
+  </data>
+  <data name="EditorOriginalRatio.Content" xml:space="preserve">
+    <value>自由 / 原比例</value>
+  </data>
+  <data name="EditorPadding.Text" xml:space="preserve">
+    <value>透明边距</value>
+  </data>
+  <data name="EditorRemoveBackground.Header" xml:space="preserve">
+    <value>去除背景色</value>
+  </data>
+  <data name="EditorRemoveBackground.OffContent" xml:space="preserve">
+    <value>保留背景</value>
+  </data>
+  <data name="EditorRemoveBackground.OnContent" xml:space="preserve">
+    <value>转为透明</value>
+  </data>
+  <data name="EditorRemoveColor.Header" xml:space="preserve">
+    <value>要去除的颜色</value>
+  </data>
+  <data name="EditorSave.Content" xml:space="preserve">
+    <value>保存图标</value>
+  </data>
+  <data name="EditorShape.Header" xml:space="preserve">
+    <value>底层图形</value>
+  </data>
+  <data name="EditorShapeCircle.Content" xml:space="preserve">
+    <value>圆形</value>
+  </data>
+  <data name="EditorShapeNone.Content" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="EditorShapeRounded.Content" xml:space="preserve">
+    <value>圆角方形</value>
+  </data>
+  <data name="EditorShapeSquircle.Content" xml:space="preserve">
+    <value>Win 11 圆方形</value>
+  </data>
+  <data name="EditorTitleBar.Subtitle" xml:space="preserve">
+    <value>裁剪与样式</value>
+  </data>
+  <data name="EditorTitleBar.Title" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="EditorTolerance.Text" xml:space="preserve">
+    <value>颜色容差</value>
+  </data>
+  <data name="EditorVertical.Text" xml:space="preserve">
+    <value>垂直位置</value>
+  </data>
+  <data name="EditorWhite.Content" xml:space="preserve">
+    <value>白色</value>
+  </data>
+  <data name="EditorZoom.Text" xml:space="preserve">
+    <value>缩放</value>
+  </data>
+  <data name="Favorite" xml:space="preserve">
+    <value>收藏</value>
+  </data>
+  <data name="FolderRename.Text" xml:space="preserve">
+    <value>重命名文件夹</value>
+  </data>
+  <data name="GeneratingSizes" xml:space="preserve">
+    <value>正在生成 7 种尺寸…</value>
+  </data>
+  <data name="HistoryHeader.Text" xml:space="preserve">
+    <value>历史恢复</value>
+  </data>
+  <data name="HistorySubtitle.Text" xml:space="preserve">
+    <value>同一对象的修改默认折叠；展开可查看图标前后对比</value>
+  </data>
+  <data name="HistorySummary" xml:space="preserve">
+    <value>{0} 次修改 · 最近 {1}</value>
+  </data>
+  <data name="HomeHeader.Text" xml:space="preserve">
+    <value>快速更换</value>
+  </data>
+  <data name="HomeSubtitle.Text" xml:space="preserve">
+    <value>选择对象，再点一个图标</value>
+  </data>
+  <data name="IconDelete.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="IconEdit.Text" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="IconMove.Text" xml:space="preserve">
+    <value>移动到文件夹…</value>
+  </data>
+  <data name="IconRename.Text" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="ImportIconText.Text" xml:space="preserve">
+    <value>导入图标</value>
+  </data>
+  <data name="ImportText.Text" xml:space="preserve">
+    <value>导入</value>
+  </data>
+  <data name="InstallModernMenu.Content" xml:space="preserve">
+    <value>安装 / 修复 Win 11 新版菜单</value>
+  </data>
+  <data name="IntegrationHeader.Text" xml:space="preserve">
+    <value>系统集成</value>
+  </data>
+  <data name="LanguageCombo.Header" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="LanguageRestartMessage" xml:space="preserve">
+    <value>重新打开 IconFlow 后应用新语言。</value>
+  </data>
+  <data name="LanguageSavedTitle" xml:space="preserve">
+    <value>语言已保存</value>
+  </data>
+  <data name="LibraryHeader.Text" xml:space="preserve">
+    <value>图标库</value>
+  </data>
+  <data name="LibrarySearch.PlaceholderText" xml:space="preserve">
+    <value>搜索名称、标签或来源</value>
+  </data>
+  <data name="LibrarySubtitle.Text" xml:space="preserve">
+    <value>拖动图标即可整理到文件夹</value>
+  </data>
+  <data name="LocalMode.Text" xml:space="preserve">
+    <value>WinUI 3 · 单进程 · 无 Chromium · 本地处理</value>
+  </data>
+  <data name="MigrateNote.Text" xml:space="preserve">
+    <value>确认后会复制并校验全部图标，再切换到新位置；已经应用的图标不会失效。</value>
+  </data>
+  <data name="ModernMenuEnabled" xml:space="preserve">
+    <value>Windows 11 新版一级菜单组件已启用。</value>
+  </data>
+  <data name="ModernMenuPortable" xml:space="preserve">
+    <value>当前为便携兼容模式；安装新版菜单组件后可进入 Windows 11 一级菜单。</value>
+  </data>
+  <data name="ModernStatus.Text" xml:space="preserve">
+    <value>正在检查 Windows 11 新版菜单组件…</value>
+  </data>
+  <data name="NavHistory.Content" xml:space="preserve">
+    <value>历史恢复</value>
+  </data>
+  <data name="NavHome.Content" xml:space="preserve">
+    <value>快速更换</value>
+  </data>
+  <data name="NavLibrary.Content" xml:space="preserve">
+    <value>图标库</value>
+  </data>
+  <data name="NewFolder.Content" xml:space="preserve">
+    <value>新建文件夹</value>
+  </data>
+  <data name="NoHistory.Text" xml:space="preserve">
+    <value>还没有修改记录</value>
+  </data>
+  <data name="NoHistoryValue" xml:space="preserve">
+    <value>还没有修改记录</value>
+  </data>
+  <data name="NoTarget.Text" xml:space="preserve">
+    <value>尚未选择对象</value>
+  </data>
+  <data name="OpenLocationButton.Content" xml:space="preserve">
+    <value>打开位置</value>
+  </data>
+  <data name="OpenLocationText.Text" xml:space="preserve">
+    <value>打开位置</value>
+  </data>
+  <data name="PermissionsNote.Text" xml:space="preserve">
+    <value>普通功能不需要管理员权限；关闭窗口即退出，不默认驻留后台。</value>
+  </data>
+  <data name="QuickEmptySubtitle.Text" xml:space="preserve">
+    <value>导入后会自动选择并应用</value>
+  </data>
+  <data name="QuickEmptyTitle.Text" xml:space="preserve">
+    <value>拖入图片或点击导入</value>
+  </data>
+  <data name="QuickIconDelete.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="QuickIconEdit.Text" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="QuickIconMove.Text" xml:space="preserve">
+    <value>移动到文件夹…</value>
+  </data>
+  <data name="QuickIconRename.Text" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="QuickImport.Content" xml:space="preserve">
+    <value>导入</value>
+  </data>
+  <data name="QuickImportIcon.Content" xml:space="preserve">
+    <value>导入图标</value>
+  </data>
+  <data name="QuickNewFolder.Text" xml:space="preserve">
+    <value>新建文件夹</value>
+  </data>
+  <data name="QuickOpenMain.Content" xml:space="preserve">
+    <value>打开主界面</value>
+  </data>
+  <data name="QuickReading.Text" xml:space="preserve">
+    <value>读取对象…</value>
+  </data>
+  <data name="QuickRenameFolder.Text" xml:space="preserve">
+    <value>重命名当前文件夹</value>
+  </data>
+  <data name="QuickRestore.Content" xml:space="preserve">
+    <value>恢复默认</value>
+  </data>
+  <data name="QuickSearch.PlaceholderText" xml:space="preserve">
+    <value>搜索图标</value>
+  </data>
+  <data name="QuickTitleBar.Title" xml:space="preserve">
+    <value>更换图标</value>
+  </data>
+  <data name="QuickUndo.Content" xml:space="preserve">
+    <value>撤销</value>
+  </data>
+  <data name="RecentAction.Text" xml:space="preserve">
+    <value>最近操作</value>
+  </data>
+  <data name="RecentUsed.Text" xml:space="preserve">
+    <value>最近使用</value>
+  </data>
+  <data name="RestoreDefault" xml:space="preserve">
+    <value>恢复默认</value>
+  </data>
+  <data name="SettingsHeader.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="StartToggle.Header" xml:space="preserve">
+    <value>开机启动</value>
+  </data>
+  <data name="StartToggle.OffContent" xml:space="preserve">
+    <value>默认关闭</value>
+  </data>
+  <data name="StartToggle.OnContent" xml:space="preserve">
+    <value>开启</value>
+  </data>
+  <data name="StorageHeader.Text" xml:space="preserve">
+    <value>图标库保存位置</value>
+  </data>
+  <data name="ThemeCombo.Header" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="ThemeDark.Content" xml:space="preserve">
+    <value>深色</value>
+  </data>
+  <data name="ThemeLight.Content" xml:space="preserve">
+    <value>浅色</value>
+  </data>
+  <data name="ThemeSystem.Content" xml:space="preserve">
+    <value>跟随系统</value>
+  </data>
+  <data name="Undoable" xml:space="preserve">
+    <value>可撤销</value>
+  </data>
+  <data name="UndoChangeButton.Content" xml:space="preserve">
+    <value>撤销更改</value>
+  </data>
+  <data name="Undone" xml:space="preserve">
+    <value>已撤销</value>
+  </data>
+  <data name="UndoRecentText.Text" xml:space="preserve">
+    <value>撤销最近</value>
+  </data>
+  <data name="UndoText.Text" xml:space="preserve">
+    <value>撤销</value>
+  </data>
+  <data name="UndoThis.Content" xml:space="preserve">
+    <value>撤销这次修改</value>
+  </data>
+  <data name="Unfavorite" xml:space="preserve">
+    <value>取消收藏</value>
+  </data>
+  <data name="Unused" xml:space="preserve">
+    <value>未使用</value>
+  </data>
+  <data name="UsedCount" xml:space="preserve">
+    <value>已使用 {0} 次</value>
+  </data>
+</root>

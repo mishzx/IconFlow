@@ -1,0 +1,75 @@
+name: Feature request / 功能建议
+description: Suggest a useful, privacy-respecting improvement / 提议有价值且尊重隐私的改进
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        IconFlow aims to make local Windows icon management safer, clearer, and more accessible across languages.
+        IconFlow 致力于让 Windows 本地图标管理更安全、更清晰，并服务于不同语言的用户。请先搜索已有建议。
+
+        **Privacy / 隐私：** Do not attach personal files, private keys, certificates, tokens, or identifying screenshots. 请勿附加个人文件、私钥、证书、令牌或含有身份信息的截图。
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check / 隐私确认
+      options:
+        - label: This proposal does not require collecting or uploading users' private files by default. / 此建议默认不要求收集或上传用户的私有文件。
+          required: true
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Proposal language / 建议语言
+      options:
+        - English
+        - 简体中文
+        - 繁體中文
+        - Español
+        - Français
+        - Deutsch
+        - Português
+        - 日本語
+        - 한국어
+        - Русский
+        - العربية
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case / 问题或使用场景
+      description: What user need would this address, and who benefits?
+      placeholder: Describe the workflow, not private user data. / 描述工作流，不要提供个人数据。
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution / 建议方案
+      description: Explain the desired behavior and any internationalization or accessibility considerations.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered / 已考虑的替代方案
+      description: What workarounds or existing tools have you tried?
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Scope and impact / 范围与影响
+      description: Note compatibility, privacy, performance, or translation implications if known.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context / 其他信息
+      description: Add sanitized examples or links to public documentation only.

@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AfterText.Text" xml:space="preserve">
+    <value>После</value>
+  </data>
+  <data name="AllIcons" xml:space="preserve">
+    <value>Все значки</value>
+  </data>
+  <data name="AppearanceHeader.Text" xml:space="preserve">
+    <value>Внешний вид</value>
+  </data>
+  <data name="AppTitleBar.Subtitle" xml:space="preserve">
+    <value>Менеджер значков</value>
+  </data>
+  <data name="AutoBackup.Text" xml:space="preserve">
+    <value>Перед каждым изменением создаётся копия</value>
+  </data>
+  <data name="AutoBackupValue" xml:space="preserve">
+    <value>Перед каждым изменением создаётся копия</value>
+  </data>
+  <data name="BeforeText.Text" xml:space="preserve">
+    <value>До</value>
+  </data>
+  <data name="BuiltIn_archive" xml:space="preserve">
+    <value>Архив</value>
+  </data>
+  <data name="BuiltIn_clinical" xml:space="preserve">
+    <value>Клиника</value>
+  </data>
+  <data name="BuiltIn_code" xml:space="preserve">
+    <value>Разработка</value>
+  </data>
+  <data name="BuiltIn_completed" xml:space="preserve">
+    <value>Выполнено</value>
+  </data>
+  <data name="BuiltIn_data" xml:space="preserve">
+    <value>Анализ данных</value>
+  </data>
+  <data name="BuiltIn_laboratory" xml:space="preserve">
+    <value>Лабораторные исследования</value>
+  </data>
+  <data name="BuiltIn_literature" xml:space="preserve">
+    <value>Литература</value>
+  </data>
+  <data name="BuiltIn_pictures" xml:space="preserve">
+    <value>Изображения</value>
+  </data>
+  <data name="BuiltIn_todo" xml:space="preserve">
+    <value>К выполнению</value>
+  </data>
+  <data name="BuiltInFolder" xml:space="preserve">
+    <value>Встроенные значки · Папки Fluent</value>
+  </data>
+  <data name="BuiltInSource" xml:space="preserve">
+    <value>Встроено в IconFlow</value>
+  </data>
+  <data name="ChangeIcon" xml:space="preserve">
+    <value>Изменить значок</value>
+  </data>
+  <data name="ChangeMigrate.Content" xml:space="preserve">
+    <value>Изменить и перенести</value>
+  </data>
+  <data name="ChooseFolder.Content" xml:space="preserve">
+    <value>Выбрать папку</value>
+  </data>
+  <data name="ChooseShortcut.Content" xml:space="preserve">
+    <value>Выбрать ярлык</value>
+  </data>
+  <data name="CompatMenu.Header" xml:space="preserve">
+    <value>Совместимое контекстное меню Проводника</value>
+  </data>
+  <data name="CompatMenu.OffContent" xml:space="preserve">
+    <value>Выкл.</value>
+  </data>
+  <data name="CompatMenu.OnContent" xml:space="preserve">
+    <value>Вкл.</value>
+  </data>
+  <data name="DataHeader.Text" xml:space="preserve">
+    <value>Данные</value>
+  </data>
+  <data name="DropTargetSubtitle.Text" xml:space="preserve">
+    <value>Можно перетащить изображение для создания ICO</value>
+  </data>
+  <data name="DropTargetTitle.Text" xml:space="preserve">
+    <value>Перетащите папку или ярлык</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="EditorAspect.Header" xml:space="preserve">
+    <value>Соотношение кадра</value>
+  </data>
+  <data name="EditorBlack.Content" xml:space="preserve">
+    <value>Чёрный</value>
+  </data>
+  <data name="EditorBottomColor.Header" xml:space="preserve">
+    <value>Цвет фона</value>
+  </data>
+  <data name="EditorCancel.Content" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="EditorColorGreen.Content" xml:space="preserve">
+    <value>Зелёный</value>
+  </data>
+  <data name="EditorCoral.Content" xml:space="preserve">
+    <value>Коралловый</value>
+  </data>
+  <data name="EditorCorner.Text" xml:space="preserve">
+    <value>Скругление изображения</value>
+  </data>
+  <data name="EditorCyan.Content" xml:space="preserve">
+    <value>Циан</value>
+  </data>
+  <data name="EditorDarkGray.Content" xml:space="preserve">
+    <value>Тёмно-серый</value>
+  </data>
+  <data name="EditorGreen.Content" xml:space="preserve">
+    <value>Зелёный</value>
+  </data>
+  <data name="EditorHorizontal.Text" xml:space="preserve">
+    <value>Горизонтальное положение</value>
+  </data>
+  <data name="EditorIndigo.Content" xml:space="preserve">
+    <value>Индиго</value>
+  </data>
+  <data name="EditorLightGray.Content" xml:space="preserve">
+    <value>Светло-серый</value>
+  </data>
+  <data name="EditorLocalOnly.Text" xml:space="preserve">
+    <value>Вся обработка выполняется локально</value>
+  </data>
+  <data name="EditorMagenta.Content" xml:space="preserve">
+    <value>Пурпурный</value>
+  </data>
+  <data name="EditorOriginalRatio.Content" xml:space="preserve">
+    <value>Свободно / исходное</value>
+  </data>
+  <data name="EditorPadding.Text" xml:space="preserve">
+    <value>Прозрачные поля</value>
+  </data>
+  <data name="EditorRemoveBackground.Header" xml:space="preserve">
+    <value>Удалить цвет фона</value>
+  </data>
+  <data name="EditorRemoveBackground.OffContent" xml:space="preserve">
+    <value>Сохранить фон</value>
+  </data>
+  <data name="EditorRemoveBackground.OnContent" xml:space="preserve">
+    <value>Сделать прозрачным</value>
+  </data>
+  <data name="EditorRemoveColor.Header" xml:space="preserve">
+    <value>Удаляемый цвет</value>
+  </data>
+  <data name="EditorSave.Content" xml:space="preserve">
+    <value>Сохранить значок</value>
+  </data>
+  <data name="EditorShape.Header" xml:space="preserve">
+    <value>Форма фона</value>
+  </data>
+  <data name="EditorShapeCircle.Content" xml:space="preserve">
+    <value>Круг</value>
+  </data>
+  <data name="EditorShapeNone.Content" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="EditorShapeRounded.Content" xml:space="preserve">
+    <value>Скруглённый квадрат</value>
+  </data>
+  <data name="EditorShapeSquircle.Content" xml:space="preserve">
+    <value>Сквиркл Windows 11</value>
+  </data>
+  <data name="EditorTitleBar.Subtitle" xml:space="preserve">
+    <value>Кадрирование и стиль</value>
+  </data>
+  <data name="EditorTitleBar.Title" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="EditorTolerance.Text" xml:space="preserve">
+    <value>Допуск цвета</value>
+  </data>
+  <data name="EditorVertical.Text" xml:space="preserve">
+    <value>Вертикальное положение</value>
+  </data>
+  <data name="EditorWhite.Content" xml:space="preserve">
+    <value>Белый</value>
+  </data>
+  <data name="EditorZoom.Text" xml:space="preserve">
+    <value>Масштаб</value>
+  </data>
+  <data name="Favorite" xml:space="preserve">
+    <value>В избранное</value>
+  </data>
+  <data name="FolderRename.Text" xml:space="preserve">
+    <value>Переименовать папку</value>
+  </data>
+  <data name="GeneratingSizes" xml:space="preserve">
+    <value>Создание значка в 7 размерах…</value>
+  </data>
+  <data name="HistoryHeader.Text" xml:space="preserve">
+    <value>История и восстановление</value>
+  </data>
+  <data name="HistorySubtitle.Text" xml:space="preserve">
+    <value>Изменения одного объекта сгруппированы; разверните для сравнения</value>
+  </data>
+  <data name="HistorySummary" xml:space="preserve">
+    <value>Изменений: {0} · Последнее {1}</value>
+  </data>
+  <data name="HomeHeader.Text" xml:space="preserve">
+    <value>Быстрая замена</value>
+  </data>
+  <data name="HomeSubtitle.Text" xml:space="preserve">
+    <value>Выберите объект, затем значок</value>
+  </data>
+  <data name="IconDelete.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="IconEdit.Text" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="IconMove.Text" xml:space="preserve">
+    <value>Переместить в папку…</value>
+  </data>
+  <data name="IconRename.Text" xml:space="preserve">
+    <value>Переименовать</value>
+  </data>
+  <data name="ImportIconText.Text" xml:space="preserve">
+    <value>Импорт значков</value>
+  </data>
+  <data name="ImportText.Text" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="InstallModernMenu.Content" xml:space="preserve">
+    <value>Установить / восстановить меню Windows 11</value>
+  </data>
+  <data name="IntegrationHeader.Text" xml:space="preserve">
+    <value>Интеграция с системой</value>
+  </data>
+  <data name="LanguageCombo.Header" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="LanguageRestartMessage" xml:space="preserve">
+    <value>Перезапустите IconFlow для применения языка.</value>
+  </data>
+  <data name="LanguageSavedTitle" xml:space="preserve">
+    <value>Язык сохранён</value>
+  </data>
+  <data name="LibraryHeader.Text" xml:space="preserve">
+    <value>Библиотека значков</value>
+  </data>
+  <data name="LibrarySearch.PlaceholderText" xml:space="preserve">
+    <value>Поиск по имени, тегу или источнику</value>
+  </data>
+  <data name="LibrarySubtitle.Text" xml:space="preserve">
+    <value>Перетаскивайте значки в папки</value>
+  </data>
+  <data name="LocalMode.Text" xml:space="preserve">
+    <value>WinUI 3 · Один процесс · Без Chromium · Локально</value>
+  </data>
+  <data name="MigrateNote.Text" xml:space="preserve">
+    <value>Перед переключением значки копируются и проверяются; применённые значки сохраняются.</value>
+  </data>
+  <data name="ModernMenuEnabled" xml:space="preserve">
+    <value>Новое контекстное меню Windows 11 включено.</value>
+  </data>
+  <data name="ModernMenuPortable" xml:space="preserve">
+    <value>Включён переносной режим совместимости. Установите компонент нового меню для основного меню Windows 11.</value>
+  </data>
+  <data name="ModernStatus.Text" xml:space="preserve">
+    <value>Проверка нового меню Windows 11…</value>
+  </data>
+  <data name="NavHistory.Content" xml:space="preserve">
+    <value>История и восстановление</value>
+  </data>
+  <data name="NavHome.Content" xml:space="preserve">
+    <value>Быстрая замена</value>
+  </data>
+  <data name="NavLibrary.Content" xml:space="preserve">
+    <value>Библиотека значков</value>
+  </data>
+  <data name="NewFolder.Content" xml:space="preserve">
+    <value>Новая папка</value>
+  </data>
+  <data name="NoHistory.Text" xml:space="preserve">
+    <value>Изменений пока нет</value>
+  </data>
+  <data name="NoHistoryValue" xml:space="preserve">
+    <value>Изменений пока нет</value>
+  </data>
+  <data name="NoTarget.Text" xml:space="preserve">
+    <value>Объект не выбран</value>
+  </data>
+  <data name="OpenLocationButton.Content" xml:space="preserve">
+    <value>Открыть расположение</value>
+  </data>
+  <data name="OpenLocationText.Text" xml:space="preserve">
+    <value>Открыть расположение</value>
+  </data>
+  <data name="PermissionsNote.Text" xml:space="preserve">
+    <value>Обычные функции не требуют прав администратора. Закрытие окна завершает приложение.</value>
+  </data>
+  <data name="QuickEmptySubtitle.Text" xml:space="preserve">
+    <value>Импортированный значок будет выбран и применён автоматически</value>
+  </data>
+  <data name="QuickEmptyTitle.Text" xml:space="preserve">
+    <value>Перетащите изображение или нажмите «Импорт»</value>
+  </data>
+  <data name="QuickIconDelete.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="QuickIconEdit.Text" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="QuickIconMove.Text" xml:space="preserve">
+    <value>Переместить в папку…</value>
+  </data>
+  <data name="QuickIconRename.Text" xml:space="preserve">
+    <value>Переименовать</value>
+  </data>
+  <data name="QuickImport.Content" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="QuickImportIcon.Content" xml:space="preserve">
+    <value>Импорт значков</value>
+  </data>
+  <data name="QuickNewFolder.Text" xml:space="preserve">
+    <value>Новая папка</value>
+  </data>
+  <data name="QuickOpenMain.Content" xml:space="preserve">
+    <value>Открыть главное окно</value>
+  </data>
+  <data name="QuickReading.Text" xml:space="preserve">
+    <value>Чтение объекта…</value>
+  </data>
+  <data name="QuickRenameFolder.Text" xml:space="preserve">
+    <value>Переименовать текущую папку</value>
+  </data>
+  <data name="QuickRestore.Content" xml:space="preserve">
+    <value>Восстановить по умолчанию</value>
+  </data>
+  <data name="QuickSearch.PlaceholderText" xml:space="preserve">
+    <value>Поиск значков</value>
+  </data>
+  <data name="QuickTitleBar.Title" xml:space="preserve">
+    <value>Изменить значок</value>
+  </data>
+  <data name="QuickUndo.Content" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="RecentAction.Text" xml:space="preserve">
+    <value>Недавние действия</value>
+  </data>
+  <data name="RecentUsed.Text" xml:space="preserve">
+    <value>Недавно использованные</value>
+  </data>
+  <data name="RestoreDefault" xml:space="preserve">
+    <value>Восстановить по умолчанию</value>
+  </data>
+  <data name="SettingsHeader.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="StartToggle.Header" xml:space="preserve">
+    <value>Запускать при входе</value>
+  </data>
+  <data name="StartToggle.OffContent" xml:space="preserve">
+    <value>По умолчанию выключено</value>
+  </data>
+  <data name="StartToggle.OnContent" xml:space="preserve">
+    <value>Вкл.</value>
+  </data>
+  <data name="StorageHeader.Text" xml:space="preserve">
+    <value>Расположение библиотеки</value>
+  </data>
+  <data name="ThemeCombo.Header" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="ThemeDark.Content" xml:space="preserve">
+    <value>Тёмная</value>
+  </data>
+  <data name="ThemeLight.Content" xml:space="preserve">
+    <value>Светлая</value>
+  </data>
+  <data name="ThemeSystem.Content" xml:space="preserve">
+    <value>Как в системе</value>
+  </data>
+  <data name="Undoable" xml:space="preserve">
+    <value>Можно отменить</value>
+  </data>
+  <data name="UndoChangeButton.Content" xml:space="preserve">
+    <value>Отменить изменение</value>
+  </data>
+  <data name="Undone" xml:space="preserve">
+    <value>Отменено</value>
+  </data>
+  <data name="UndoRecentText.Text" xml:space="preserve">
+    <value>Отменить последнее</value>
+  </data>
+  <data name="UndoText.Text" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="UndoThis.Content" xml:space="preserve">
+    <value>Отменить это изменение</value>
+  </data>
+  <data name="Unfavorite" xml:space="preserve">
+    <value>Удалить из избранного</value>
+  </data>
+  <data name="Unused" xml:space="preserve">
+    <value>Не использован</value>
+  </data>
+  <data name="UsedCount" xml:space="preserve">
+    <value>Использовано: {0}</value>
+  </data>
+</root>

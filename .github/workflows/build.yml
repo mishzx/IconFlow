@@ -1,0 +1,61 @@
+name: Windows native CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+# This workflow only restores, builds, and tests source code. It deliberately
+# does not package, sign, or upload a release, so private signing material is
+# never needed by GitHub Actions.
+permissions:
+  contents: read
+
+concurrency:
+  group: windows-native-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build and test WinUI 3 (win-x64)
+    runs-on: windows-latest
+    timeout-minutes: 30
+    env:
+      DOTNET_CLI_TELEMETRY_OPTOUT: '1'
+      DOTNET_NOLOGO: 'true'
+      NUGET_XMLDOC_MODE: skip
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up .NET 8 SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Restore native projects
+        shell: pwsh
+        run: |
+          dotnet restore native/IconFlow.Native.Tests/IconFlow.Native.Tests.csproj --runtime win-x64 --nologo
+          dotnet restore native/IconFlow.WinUI/IconFlow.WinUI.csproj --runtime win-x64 --nologo
+
+      - name: Build WinUI application
+        shell: pwsh
+        run: >-
+          dotnet build native/IconFlow.WinUI/IconFlow.WinUI.csproj
+          --configuration Release
+          --runtime win-x64
+          --no-restore
+          --nologo
+
+      - name: Run native core regression suite
+        shell: pwsh
+        run: >-
+          dotnet run --project native/IconFlow.Native.Tests/IconFlow.Native.Tests.csproj
+          --configuration Release
+          --runtime win-x64
+          --no-restore
+          --nologo

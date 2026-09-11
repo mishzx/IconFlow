@@ -1,0 +1,65 @@
+# Build outputs and dependencies
+**/bin/
+**/obj/
+node_modules/
+release/
+release-native/
+artifacts/
+ShellExtension.obj
+ShellExtension.lib
+ShellExtension.exp
+
+# Local certificates and signing material
+*.pfx
+*.p12
+*.snk
+*.cer
+*.pem
+*.key
+*.crt
+*.der
+*.jks
+*.keystore
+*.pdb
+
+# Local user data, QA captures and traces
+.agents/
+.dev-*/
+.demo-*/
+.portable-*/
+.folder-*/
+.release-*/
+.integration-*/
+.native-*/
+.winapp-*/
+.winui-*/
+qa-*/
+tests/*.png
+tests/*ready*.json
+tests/*error*.txt
+tests/bench-*.json
+tests/*.log
+scripts/.qa-*.json
+scripts/generate-build-icon.js
+tests/integration.js
+tests/register-context.js
+tests/target-path.test.js
+*.user
+*.suo
+*.log
+*.trace
+
+# Retired Electron prototype (not part of the native release)
+electron/
+ui/
+native/IconFlow.Native/
+package.json
+package-lock.json
+
+# OS/editor files
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini

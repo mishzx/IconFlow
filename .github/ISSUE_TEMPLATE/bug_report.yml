@@ -1,0 +1,99 @@
+name: Bug report / 缺陷报告
+description: Report a reproducible problem in IconFlow / 报告可复现的问题
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve IconFlow!
+        感谢你帮助改进 IconFlow！请先搜索已有 issue，避免重复提交。
+
+        **Privacy / 隐私：** Do not include personal files, usernames, local paths, tokens, private keys, certificates, or other sensitive data. 请勿上传个人文件、用户名、本地路径、令牌、私钥、证书或其他敏感信息。
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check / 隐私确认
+      options:
+        - label: I removed private or identifying information from this report. / 我已从报告中删除隐私和可识别信息。
+          required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: IconFlow version / 版本
+      description: The version shown by the app or release package.
+      placeholder: "0.8.1"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Report language / 报告语言
+      options:
+        - English
+        - 简体中文
+        - 繁體中文
+        - Español
+        - Français
+        - Deutsch
+        - Português
+        - 日本語
+        - 한국어
+        - Русский
+        - العربية
+    validations:
+      required: true
+
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version / Windows 版本
+      description: Include the Windows edition and build if known; do not include a device name.
+      placeholder: "Windows 11 24H2 (26100.x)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 复现步骤
+      description: List the smallest set of steps that consistently reproduces the problem.
+      placeholder: |
+        1. Open...
+        2. Select...
+        3. Click...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior / 预期行为
+      placeholder: What should have happened? / 原本应该发生什么？
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior / 实际行为
+      placeholder: What happened instead? / 实际发生了什么？
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sanitized logs or screenshots / 已脱敏的日志或截图
+      description: Optional. Remove usernames, absolute paths, personal files, tokens, certificates, and unrelated data before posting.
+      render: text
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context / 其他信息
+      description: Include whether the issue also occurs with the latest release.

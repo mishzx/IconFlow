@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AfterText.Text" xml:space="preserve">
+    <value>Después</value>
+  </data>
+  <data name="AllIcons" xml:space="preserve">
+    <value>Todos los iconos</value>
+  </data>
+  <data name="AppearanceHeader.Text" xml:space="preserve">
+    <value>Apariencia</value>
+  </data>
+  <data name="AppTitleBar.Subtitle" xml:space="preserve">
+    <value>Administrador de iconos</value>
+  </data>
+  <data name="AutoBackup.Text" xml:space="preserve">
+    <value>Se crea una copia antes de cada cambio</value>
+  </data>
+  <data name="AutoBackupValue" xml:space="preserve">
+    <value>Se crea una copia antes de cada cambio</value>
+  </data>
+  <data name="BeforeText.Text" xml:space="preserve">
+    <value>Antes</value>
+  </data>
+  <data name="BuiltIn_archive" xml:space="preserve">
+    <value>Archivo</value>
+  </data>
+  <data name="BuiltIn_clinical" xml:space="preserve">
+    <value>Clínica</value>
+  </data>
+  <data name="BuiltIn_code" xml:space="preserve">
+    <value>Desarrollo de código</value>
+  </data>
+  <data name="BuiltIn_completed" xml:space="preserve">
+    <value>Completado</value>
+  </data>
+  <data name="BuiltIn_data" xml:space="preserve">
+    <value>Análisis de datos</value>
+  </data>
+  <data name="BuiltIn_laboratory" xml:space="preserve">
+    <value>Investigación de laboratorio</value>
+  </data>
+  <data name="BuiltIn_literature" xml:space="preserve">
+    <value>Literatura</value>
+  </data>
+  <data name="BuiltIn_pictures" xml:space="preserve">
+    <value>Imágenes</value>
+  </data>
+  <data name="BuiltIn_todo" xml:space="preserve">
+    <value>Pendiente</value>
+  </data>
+  <data name="BuiltInFolder" xml:space="preserve">
+    <value>Iconos incluidos · Carpetas Fluent</value>
+  </data>
+  <data name="BuiltInSource" xml:space="preserve">
+    <value>Incluido en IconFlow</value>
+  </data>
+  <data name="ChangeIcon" xml:space="preserve">
+    <value>Cambiar icono</value>
+  </data>
+  <data name="ChangeMigrate.Content" xml:space="preserve">
+    <value>Cambiar y migrar</value>
+  </data>
+  <data name="ChooseFolder.Content" xml:space="preserve">
+    <value>Elegir carpeta</value>
+  </data>
+  <data name="ChooseShortcut.Content" xml:space="preserve">
+    <value>Elegir acceso directo</value>
+  </data>
+  <data name="CompatMenu.Header" xml:space="preserve">
+    <value>Menú contextual compatible del Explorador</value>
+  </data>
+  <data name="CompatMenu.OffContent" xml:space="preserve">
+    <value>Desactivado</value>
+  </data>
+  <data name="CompatMenu.OnContent" xml:space="preserve">
+    <value>Activado</value>
+  </data>
+  <data name="DataHeader.Text" xml:space="preserve">
+    <value>Datos</value>
+  </data>
+  <data name="DropTargetSubtitle.Text" xml:space="preserve">
+    <value>También puedes soltar una imagen para crear un ICO</value>
+  </data>
+  <data name="DropTargetTitle.Text" xml:space="preserve">
+    <value>Arrastra una carpeta o acceso directo</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="EditorAspect.Header" xml:space="preserve">
+    <value>Relación de recorte</value>
+  </data>
+  <data name="EditorBlack.Content" xml:space="preserve">
+    <value>Negro</value>
+  </data>
+  <data name="EditorBottomColor.Header" xml:space="preserve">
+    <value>Color de fondo</value>
+  </data>
+  <data name="EditorCancel.Content" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="EditorColorGreen.Content" xml:space="preserve">
+    <value>Verde</value>
+  </data>
+  <data name="EditorCoral.Content" xml:space="preserve">
+    <value>Coral</value>
+  </data>
+  <data name="EditorCorner.Text" xml:space="preserve">
+    <value>Esquinas de imagen</value>
+  </data>
+  <data name="EditorCyan.Content" xml:space="preserve">
+    <value>Cian</value>
+  </data>
+  <data name="EditorDarkGray.Content" xml:space="preserve">
+    <value>Gris oscuro</value>
+  </data>
+  <data name="EditorGreen.Content" xml:space="preserve">
+    <value>Verde</value>
+  </data>
+  <data name="EditorHorizontal.Text" xml:space="preserve">
+    <value>Posición horizontal</value>
+  </data>
+  <data name="EditorIndigo.Content" xml:space="preserve">
+    <value>Índigo</value>
+  </data>
+  <data name="EditorLightGray.Content" xml:space="preserve">
+    <value>Gris claro</value>
+  </data>
+  <data name="EditorLocalOnly.Text" xml:space="preserve">
+    <value>Todo se procesa localmente</value>
+  </data>
+  <data name="EditorMagenta.Content" xml:space="preserve">
+    <value>Magenta</value>
+  </data>
+  <data name="EditorOriginalRatio.Content" xml:space="preserve">
+    <value>Libre / original</value>
+  </data>
+  <data name="EditorPadding.Text" xml:space="preserve">
+    <value>Margen transparente</value>
+  </data>
+  <data name="EditorRemoveBackground.Header" xml:space="preserve">
+    <value>Quitar color de fondo</value>
+  </data>
+  <data name="EditorRemoveBackground.OffContent" xml:space="preserve">
+    <value>Conservar fondo</value>
+  </data>
+  <data name="EditorRemoveBackground.OnContent" xml:space="preserve">
+    <value>Hacer transparente</value>
+  </data>
+  <data name="EditorRemoveColor.Header" xml:space="preserve">
+    <value>Color a quitar</value>
+  </data>
+  <data name="EditorSave.Content" xml:space="preserve">
+    <value>Guardar icono</value>
+  </data>
+  <data name="EditorShape.Header" xml:space="preserve">
+    <value>Forma de fondo</value>
+  </data>
+  <data name="EditorShapeCircle.Content" xml:space="preserve">
+    <value>Círculo</value>
+  </data>
+  <data name="EditorShapeNone.Content" xml:space="preserve">
+    <value>Ninguna</value>
+  </data>
+  <data name="EditorShapeRounded.Content" xml:space="preserve">
+    <value>Cuadrado redondeado</value>
+  </data>
+  <data name="EditorShapeSquircle.Content" xml:space="preserve">
+    <value>Cuadrado redondeado de Windows 11</value>
+  </data>
+  <data name="EditorTitleBar.Subtitle" xml:space="preserve">
+    <value>Recorte y estilo</value>
+  </data>
+  <data name="EditorTitleBar.Title" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="EditorTolerance.Text" xml:space="preserve">
+    <value>Tolerancia de color</value>
+  </data>
+  <data name="EditorVertical.Text" xml:space="preserve">
+    <value>Posición vertical</value>
+  </data>
+  <data name="EditorWhite.Content" xml:space="preserve">
+    <value>Blanco</value>
+  </data>
+  <data name="EditorZoom.Text" xml:space="preserve">
+    <value>Escala</value>
+  </data>
+  <data name="Favorite" xml:space="preserve">
+    <value>Favorito</value>
+  </data>
+  <data name="FolderRename.Text" xml:space="preserve">
+    <value>Cambiar nombre de carpeta</value>
+  </data>
+  <data name="GeneratingSizes" xml:space="preserve">
+    <value>Creando 7 tamaños de icono…</value>
+  </data>
+  <data name="HistoryHeader.Text" xml:space="preserve">
+    <value>Historial y restauración</value>
+  </data>
+  <data name="HistorySubtitle.Text" xml:space="preserve">
+    <value>Los cambios del mismo elemento se agrupan; expande para comparar</value>
+  </data>
+  <data name="HistorySummary" xml:space="preserve">
+    <value>{0} cambios · Último {1}</value>
+  </data>
+  <data name="HomeHeader.Text" xml:space="preserve">
+    <value>Cambio rápido</value>
+  </data>
+  <data name="HomeSubtitle.Text" xml:space="preserve">
+    <value>Selecciona un elemento y elige un icono</value>
+  </data>
+  <data name="IconDelete.Text" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="IconEdit.Text" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="IconMove.Text" xml:space="preserve">
+    <value>Mover a carpeta…</value>
+  </data>
+  <data name="IconRename.Text" xml:space="preserve">
+    <value>Cambiar nombre</value>
+  </data>
+  <data name="ImportIconText.Text" xml:space="preserve">
+    <value>Importar iconos</value>
+  </data>
+  <data name="ImportText.Text" xml:space="preserve">
+    <value>Importar</value>
+  </data>
+  <data name="InstallModernMenu.Content" xml:space="preserve">
+    <value>Instalar / reparar menú de Windows 11</value>
+  </data>
+  <data name="IntegrationHeader.Text" xml:space="preserve">
+    <value>Integración del sistema</value>
+  </data>
+  <data name="LanguageCombo.Header" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="LanguageRestartMessage" xml:space="preserve">
+    <value>Vuelve a abrir IconFlow para aplicar el nuevo idioma.</value>
+  </data>
+  <data name="LanguageSavedTitle" xml:space="preserve">
+    <value>Idioma guardado</value>
+  </data>
+  <data name="LibraryHeader.Text" xml:space="preserve">
+    <value>Biblioteca de iconos</value>
+  </data>
+  <data name="LibrarySearch.PlaceholderText" xml:space="preserve">
+    <value>Buscar nombre, etiqueta u origen</value>
+  </data>
+  <data name="LibrarySubtitle.Text" xml:space="preserve">
+    <value>Arrastra iconos a carpetas para organizarlos</value>
+  </data>
+  <data name="LocalMode.Text" xml:space="preserve">
+    <value>WinUI 3 · Un proceso · Sin Chromium · Solo local</value>
+  </data>
+  <data name="MigrateNote.Text" xml:space="preserve">
+    <value>Los iconos se copian y verifican antes de cambiar; los aplicados siguen funcionando.</value>
+  </data>
+  <data name="ModernMenuEnabled" xml:space="preserve">
+    <value>El menú contextual principal de Windows 11 está activado.</value>
+  </data>
+  <data name="ModernMenuPortable" xml:space="preserve">
+    <value>El modo portátil compatible está activo. Instala el componente moderno para usar el menú principal de Windows 11.</value>
+  </data>
+  <data name="ModernStatus.Text" xml:space="preserve">
+    <value>Comprobando el menú moderno de Windows 11…</value>
+  </data>
+  <data name="NavHistory.Content" xml:space="preserve">
+    <value>Historial y restauración</value>
+  </data>
+  <data name="NavHome.Content" xml:space="preserve">
+    <value>Cambio rápido</value>
+  </data>
+  <data name="NavLibrary.Content" xml:space="preserve">
+    <value>Biblioteca de iconos</value>
+  </data>
+  <data name="NewFolder.Content" xml:space="preserve">
+    <value>Nueva carpeta</value>
+  </data>
+  <data name="NoHistory.Text" xml:space="preserve">
+    <value>Aún no hay cambios</value>
+  </data>
+  <data name="NoHistoryValue" xml:space="preserve">
+    <value>Aún no hay cambios</value>
+  </data>
+  <data name="NoTarget.Text" xml:space="preserve">
+    <value>Ningún elemento seleccionado</value>
+  </data>
+  <data name="OpenLocationButton.Content" xml:space="preserve">
+    <value>Abrir ubicación</value>
+  </data>
+  <data name="OpenLocationText.Text" xml:space="preserve">
+    <value>Abrir ubicación</value>
+  </data>
+  <data name="PermissionsNote.Text" xml:space="preserve">
+    <value>Las funciones normales no requieren permisos de administrador. Cerrar la ventana sale de la aplicación.</value>
+  </data>
+  <data name="QuickEmptySubtitle.Text" xml:space="preserve">
+    <value>Los iconos importados se seleccionan y aplican automáticamente</value>
+  </data>
+  <data name="QuickEmptyTitle.Text" xml:space="preserve">
+    <value>Arrastra una imagen o pulsa Importar</value>
+  </data>
+  <data name="QuickIconDelete.Text" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="QuickIconEdit.Text" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="QuickIconMove.Text" xml:space="preserve">
+    <value>Mover a carpeta…</value>
+  </data>
+  <data name="QuickIconRename.Text" xml:space="preserve">
+    <value>Cambiar nombre</value>
+  </data>
+  <data name="QuickImport.Content" xml:space="preserve">
+    <value>Importar</value>
+  </data>
+  <data name="QuickImportIcon.Content" xml:space="preserve">
+    <value>Importar iconos</value>
+  </data>
+  <data name="QuickNewFolder.Text" xml:space="preserve">
+    <value>Nueva carpeta</value>
+  </data>
+  <data name="QuickOpenMain.Content" xml:space="preserve">
+    <value>Abrir ventana principal</value>
+  </data>
+  <data name="QuickReading.Text" xml:space="preserve">
+    <value>Leyendo elemento…</value>
+  </data>
+  <data name="QuickRenameFolder.Text" xml:space="preserve">
+    <value>Cambiar nombre de carpeta actual</value>
+  </data>
+  <data name="QuickRestore.Content" xml:space="preserve">
+    <value>Restaurar predeterminado</value>
+  </data>
+  <data name="QuickSearch.PlaceholderText" xml:space="preserve">
+    <value>Buscar iconos</value>
+  </data>
+  <data name="QuickTitleBar.Title" xml:space="preserve">
+    <value>Cambiar icono</value>
+  </data>
+  <data name="QuickUndo.Content" xml:space="preserve">
+    <value>Deshacer</value>
+  </data>
+  <data name="RecentAction.Text" xml:space="preserve">
+    <value>Actividad reciente</value>
+  </data>
+  <data name="RecentUsed.Text" xml:space="preserve">
+    <value>Usados recientemente</value>
+  </data>
+  <data name="RestoreDefault" xml:space="preserve">
+    <value>Restaurar predeterminado</value>
+  </data>
+  <data name="SettingsHeader.Text" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="StartToggle.Header" xml:space="preserve">
+    <value>Iniciar al entrar</value>
+  </data>
+  <data name="StartToggle.OffContent" xml:space="preserve">
+    <value>Desactivado por defecto</value>
+  </data>
+  <data name="StartToggle.OnContent" xml:space="preserve">
+    <value>Activado</value>
+  </data>
+  <data name="StorageHeader.Text" xml:space="preserve">
+    <value>Ubicación de la biblioteca</value>
+  </data>
+  <data name="ThemeCombo.Header" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="ThemeDark.Content" xml:space="preserve">
+    <value>Oscuro</value>
+  </data>
+  <data name="ThemeLight.Content" xml:space="preserve">
+    <value>Claro</value>
+  </data>
+  <data name="ThemeSystem.Content" xml:space="preserve">
+    <value>Usar configuración del sistema</value>
+  </data>
+  <data name="Undoable" xml:space="preserve">
+    <value>Se puede deshacer</value>
+  </data>
+  <data name="UndoChangeButton.Content" xml:space="preserve">
+    <value>Deshacer cambio</value>
+  </data>
+  <data name="Undone" xml:space="preserve">
+    <value>Deshecho</value>
+  </data>
+  <data name="UndoRecentText.Text" xml:space="preserve">
+    <value>Deshacer último</value>
+  </data>
+  <data name="UndoText.Text" xml:space="preserve">
+    <value>Deshacer</value>
+  </data>
+  <data name="UndoThis.Content" xml:space="preserve">
+    <value>Deshacer este cambio</value>
+  </data>
+  <data name="Unfavorite" xml:space="preserve">
+    <value>Quitar favorito</value>
+  </data>
+  <data name="Unused" xml:space="preserve">
+    <value>Sin usar</value>
+  </data>
+  <data name="UsedCount" xml:space="preserve">
+    <value>Usado {0} veces</value>
+  </data>
+</root>
