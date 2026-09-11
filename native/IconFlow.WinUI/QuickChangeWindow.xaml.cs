@@ -60,9 +60,13 @@ public sealed partial class QuickChangeWindow : Window
     {
         var icons = _services.Store.Data.Icons.AsEnumerable();
         if (!string.IsNullOrWhiteSpace(query))
-            icons = icons.Where(x => x.Name.Contains(query, StringComparison.OrdinalIgnoreCase)
-                || x.Source.Contains(query, StringComparison.OrdinalIgnoreCase)
-                || x.Tags.Any(t => t.Contains(query, StringComparison.OrdinalIgnoreCase)));
+            icons = icons.Where(x =>
+            {
+                var card = new IconCard(x, _services.Images);
+                return card.Name.Contains(query, StringComparison.OrdinalIgnoreCase)
+                    || card.Source.Contains(query, StringComparison.OrdinalIgnoreCase)
+                    || x.Tags.Any(t => t.Contains(query, StringComparison.OrdinalIgnoreCase));
+            });
         if (_selectedFolderId is not null) icons = icons.Where(x => x.FolderId == _selectedFolderId);
         Icons.ReplaceAll(icons.OrderByDescending(x => x.Favorite)
             .ThenByDescending(x => x.LastUsedAt ?? x.ImportedAt).Select(x => new IconCard(x, _services.Images)));

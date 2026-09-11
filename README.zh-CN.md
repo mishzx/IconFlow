@@ -1,74 +1,69 @@
-# IconFlow Native
+<div align="center">
+  <img src="assets/icon.png" width="96" alt="IconFlow 图标">
+  <h1>IconFlow</h1>
+  <p><strong>让 Windows 文件夹一眼可辨，也随时可恢复。</strong></p>
+  <p>原生 WinUI 3 · 本地处理 · 可撤销</p>
+  <p><a href="https://github.com/mishzx/IconFlow/releases/latest"><strong>下载 Windows 版</strong></a> · <a href="#三步完成">快速开始</a> · <a href="README.md">English</a></p>
+</div>
 
-![IconFlow WinUI 3 演示](docs/media/iconflow-demo.gif)
+<div align="center">
+  <img src="docs/media/iconflow-quick-change.gif" width="470" alt="IconFlow 轻量窗口搜索、应用与撤销演示">
+</div>
 
-IconFlow 是一个本地优先、可恢复的 Windows 图标管理器。它把更换图标、整理图标库和回滚历史放在同一个轻量界面中，让文件夹和快捷方式拥有清晰、可维护的视觉语义。
+## 把一件小事真正做简单
 
-IconFlow 的意义不只是“换一个图标”：文件夹图标是个人知识库、研究资料和日常工作流的第一层导航。把图标、分类、收藏和历史管理放到本机，可以减少视觉噪音、提高定位效率，同时让文件名、路径和导入素材留在用户自己的设备上。项目采用 MIT 许可证，欢迎审阅、改进和本地化。
+更换 Windows 图标不该要求用户理解 ICO 图层、`desktop.ini`、快捷方式内部结构和资源管理器缓存。IconFlow 把这些步骤收进一个小巧的原生窗口：选择对象、选择图标、完成应用；原始状态会自动备份。
 
-> 当前原生主线版本：`0.8.1`。公开仓库仅包含维护中的原生主线。
+| 原生轻量 | 数据留在本机 | 恢复优先 |
+|:--|:--|:--|
+| .NET 8、Windows App SDK 与 WinUI 3，不启动 Chromium。 | 无账号、无遥测、无文件上传、无后台联网服务。 | 稳定保存已应用图标，记录历史，并提供撤销和恢复默认。 |
 
-## 语言
+## 三步完成
 
-- [English](README.md)
-- [简体中文](README.zh-CN.md)
-- [日本語](README.ja.md)
-- [Español](README.es.md)
+1. 右键文件夹或快捷方式，选择“更换图标”。
+2. 搜索图标库、拖入图片，或选择内置 Fluent 文件夹图标。
+3. 点击图标即可应用；IconFlow 自动刷新资源管理器，并保留“撤销”。
 
-## 为什么选择 IconFlow
+轻量窗口会出现在鼠标附近，自动避开屏幕边缘，默认置顶，也可以直接拖入图片并自动选择。
 
-- **轻量原生界面**：基于 .NET 8、Windows App SDK / WinUI 3，使用 Windows 原生控件和 Mica 视觉，不需要启动 Chromium。
-- **本地优先**：图标导入、预览、编辑、备份、历史和搜索均在本机完成；默认不联网、不上传文件，也不要求账号。
-- **可恢复**：应用图标前自动备份；历史记录可以查看前后图标、打开对象位置并逐条撤销，也可以恢复默认图标。
-- **贴近 Explorer**：支持 Windows 11 一级右键菜单，并提供无需管理员权限的“显示更多选项”兼容入口。
-- **面向真实工作流**：图标库支持文件夹、搜索、收藏、重复检测、最近使用和拖动整理，而不是一次性修改工具。
-
-## 主要功能
+## 主要能力
 
 - 为普通文件夹和 `.lnk` 快捷方式更换图标。
-- 导入 PNG、JPG/JPEG、WEBP、SVG、BMP、ICO，并提取 EXE 图标。
-- 自动生成 16、24、32、48、64、128、256 七种尺寸的 ICO。
-- 图标库：搜索、收藏、重复检测、最近使用、文件夹分类、新建/重命名/拖动整理。
-- 内置 Fluent 文件夹图标包，覆盖文献、数据、代码、实验、图片、临床、待办、已完成和归档等场景。
-- 原生编辑器：自由或固定比例裁剪、缩放、偏移、透明边距、圆角、底层图形和颜色。
-- 可按背景色与容差移除边缘连通背景，同时保留内部白色符号。
-- 右键轻量窗口：靠近鼠标显示、自动避让屏幕边缘、实时搜索、拖入图片并直接应用。
-- 图标右键菜单：重命名、编辑、移动、收藏和安全删除。
-- 版本化 256×256 预览缓存，优先读取 ICO 中最大的 PNG 图层，降低旧缓存或小图层放大造成的模糊。
-- 历史记录、撤销、恢复默认，以及资源管理器原生刷新。
-- 浅色、深色和跟随系统主题；支持 100%–200% DPI 自适应。
-- 内置多语言资源：简体中文、繁体中文、英语、西班牙语、法语、德语、葡萄牙语、日语、韩语、俄语和阿拉伯语；阿拉伯语支持 RTL 布局。
+- PNG、JPG/JPEG、WEBP、SVG、BMP、ICO 导入与 EXE 图标提取。
+- 生成 16、24、32、48、64、128、256 七层 ICO，并使用 256 px 预览缓存。
+- 自由/固定比例裁剪、缩放、边距、圆角、底层图形与边缘连通背景移除。
+- 搜索、收藏、标签、重复检测，以及可拖动整理和重命名的图标文件夹。
+- 历史按对象折叠，明确显示修改前后图标、打开位置与撤销操作。
+- 浅色、深色、跟随系统主题，以及 100%–200% DPI 支持。
+- 随附 11 种界面语言资源并支持阿拉伯语 RTL；欢迎协助校对翻译。
 
-## 隐私与数据
+<details>
+<summary><strong>查看完整界面演示</strong></summary>
+<br>
+<div align="center"><img src="docs/media/iconflow-demo.gif" width="900" alt="IconFlow 图标库与编辑器演示"></div>
+</details>
 
-IconFlow 的设计目标是“文件留在本机”。默认行为如下：
+## 下载与运行
 
-- 不开机启动、不驻留托盘；关闭最后一个窗口后进程退出。
-- 不上传文件名、路径、桌面内容或导入图片；默认不联网。
-- 图标应用前会创建备份，已应用图标会复制到稳定的 `managed-icons` 目录，因此移动原始素材或图标库后不会立即失效。
-- 应用数据默认位于 `%LocalAppData%\IconFlow`。请勿把包含个人文件名、路径或图标的诊断压缩包公开到 issue；提交问题时优先使用脱敏截图和可复现步骤。
+从 [GitHub Releases](https://github.com/mishzx/IconFlow/releases/latest) 下载最新的 `win-x64-portable.zip`，解压到稳定且可写的目录，然后运行 `IconFlow.exe`。
 
-## 安装与使用
+运行要求：Windows 10 22H2 或 Windows 11 23H2+、x64、.NET 8 Desktop Runtime、Windows App Runtime 2.4。
 
-### 直接运行便携版
+IconFlow 默认不开机启动，也不驻留托盘。日后即使启用静默启动，也只执行轻量维护，不显示窗口，随后退出。
 
-1. 从 GitHub Releases 下载最新的 `IconFlow-0.8.1-win-x64-FINAL.zip`。
-2. 将压缩包解压到你有写入权限的目录。
-3. 双击 `IconFlow.exe` 启动。
+### Windows 11 右键菜单
 
-发布包是面向 Windows x64 的原生构建，不包含用户数据。首次运行前请确认系统已安装 **.NET 8 Desktop Runtime** 和 **Windows App Runtime 2.4**；Windows 11 用户可以使用一级右键菜单功能。
+可选的 Windows 11 一级菜单基于 `IExplorerCommand` sparse package。运行 `Install-Win11Menu.ps1`，或选择 **设置 → 安装 / 修复 Windows 11 菜单**；安装包及项目本地开发证书时会请求一次 UAC。无需提升权限的当前用户兼容菜单位于“显示更多选项”中。
 
-### 右键菜单
+安装开发签名菜单组件前，请阅读 [SECURITY.md](SECURITY.md) 和发布说明。便携应用本身不要求安装证书。
 
-- **Windows 11 一级菜单**：在发布目录运行 `Install-Win11Menu.ps1`，或在设置中选择“安装 / 修复 Win 11 新版菜单”。该操作会请求一次 UAC，并安装本地签名的 sparse identity 包。
-- **兼容入口**：在设置中启用“资源管理器兼容右键菜单”。它只写入当前用户注册表，无需管理员权限，会出现在 Windows 11 的“显示更多选项”中。
-- **卸载一级菜单**：运行 `Uninstall-Win11Menu.ps1`。它会移除菜单包和对应开发签名证书。
+## 隐私与当前范围
 
-在公开分发时，开发签名证书仅用于验证和测试；正式产品应替换为受信任的代码签名证书或 Microsoft Store 分发。
+应用数据默认保存在 `%LocalAppData%\IconFlow`，也可迁移图标库。软件不上传文件名、路径、桌面内容、软件列表、导入图片或历史记录，详见 [PRIVACY.md](PRIVACY.md)。
+
+当前稳定核心支持文件夹和快捷方式；系统桌面图标、文件类型关联、任务栏、开始菜单内部项和批量匹配规则暂未纳入本版。
 
 ## 从源码构建
-
-需要 Windows、.NET 8 SDK、Windows App SDK 依赖和 PowerShell：
 
 ```powershell
 dotnet build native\IconFlow.WinUI\IconFlow.WinUI.csproj -c Release
@@ -76,16 +71,10 @@ dotnet run --project native\IconFlow.Native.Tests\IconFlow.Native.Tests.csproj -
 powershell -ExecutionPolicy Bypass -File scripts\build-native.ps1
 ```
 
-`native\\IconFlow.Core` 保存与界面无关的 Windows 核心逻辑，`native\\IconFlow.WinUI` 负责原生界面。构建脚本会生成内置图标、运行核心回归测试、发布 WinUI 文件并准备 Windows 11 菜单扩展。
+## 参与项目
 
-
-## 当前边界
-
-- 目前面向 Windows x64；系统桌面图标、文件类型图标、任务栏、开始菜单和批量规则尚未纳入可用核心版本。
-- 一级右键菜单的开发构建使用本地开发证书，会显示 Windows 信任提示；公开发布前应重新签名。
-- 发布包依赖本机 .NET 8 Desktop Runtime 和 Windows App Runtime 2.4；运行环境差异可能影响安装和菜单扩展。
-- IconFlow 不会自动上传崩溃日志。报告问题时请主动移除用户名、组织名、个人路径和私有图标素材。
+欢迎提交缺陷报告、语言校对和聚焦改进。请先阅读 [CONTRIBUTING.md](CONTRIBUTING.md) 与 [SECURITY.md](SECURITY.md)，然后提交 Issue 或参与 [Discussions](https://github.com/mishzx/IconFlow/discussions)。
 
 ## 许可证
 
-MIT License。第三方运行时和 Windows App SDK 组件遵循各自许可证。
+[MIT](LICENSE) © IconFlow contributors。

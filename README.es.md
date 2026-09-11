@@ -6,7 +6,7 @@ IconFlow es un gestor de iconos para Windows, local por defecto y con cambios re
 
 El propósito de IconFlow va más allá de cambiar una imagen: los iconos de las carpetas son la primera capa visual para orientarse en una base de conocimiento personal, materiales de investigación y tareas diarias. Al gestionar iconos, categorías, favoritos e historial en el dispositivo, el proyecto ayuda a reducir el ruido visual y encontrar antes la información, manteniendo los nombres de archivos, las rutas y los recursos importados fuera de servicios externos. El proyecto se publica bajo la licencia MIT.
 
-> Versión principal nativa actual: `0.8.1`. El repositorio público contiene únicamente la línea nativa mantenida.
+> Versión principal nativa actual: `0.8.2`. El repositorio público contiene únicamente la línea nativa mantenida.
 
 ## Idiomas
 
@@ -52,7 +52,7 @@ IconFlow está diseñado con una premisa sencilla: los archivos deben permanecer
 
 ### Ejecutar la versión portátil
 
-1. Descarga `IconFlow-0.8.1-win-x64-FINAL.zip` desde GitHub Releases.
+1. Descarga `IconFlow-0.8.2-win-x64-portable.zip` desde GitHub Releases.
 2. Extrae el archivo en una carpeta donde tengas permiso de escritura.
 3. Ejecuta `IconFlow.exe`.
 

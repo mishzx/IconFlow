@@ -12,8 +12,8 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <AssemblyName>IconFlow</AssemblyName>
     <RootNamespace>IconFlow</RootNamespace>
-    <Version>0.8.1</Version>
-    <FileVersion>0.8.1.0</FileVersion>
+    <Version>0.8.2</Version>
+    <FileVersion>0.8.2.0</FileVersion>
     <Product>IconFlow 原生图标管理器</Product>
     <Company>IconFlow</Company>
     <ApplicationIcon>..\..\assets\icon.ico</ApplicationIcon>
