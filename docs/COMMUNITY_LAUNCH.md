@@ -1,6 +1,6 @@
 # Welcome to IconFlow / 欢迎来到 IconFlow
 
-**Windows icon changes, made native and reversible.**  
+**Windows icon changes, made native and reversible.**<br>
 **用原生方式更换 Windows 图标，每一步都可撤销。**
 
 <p align="center"><img src="https://raw.githubusercontent.com/mishzx/IconFlow/main/docs/media/iconflow-quick-change.gif" width="470" alt="IconFlow quick change demo"></p>
